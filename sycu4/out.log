@@ -1,0 +1,1233 @@
+WARNING: RhIO already started, can't change the port, if you
+         want to do it, recompile with RHIO_SERVER_AUTOSTART to OFF
+Starting RhobanServer, built by dean@dean commit bb3660f634bb77ee15f973087cd494b74280d519 at Jun 19 2018 on 23:29:44
+Loading RhIO config
+Initializing MoveScheduler
+WARNING odometryModel.params configuration not found. Default model is used.
+Referee Client started
+[20:08:41:049] [Maintenance] Failed to convert file 'maintenance.json' to string (rhoban_utils::file2string: Failed to open file 'maintenance.json')
+[20:08:41:050] [kick] Generating spline for 'classic' kick
+[20:08:41:050] [kick] Generating kick
+[20:08:41:050] [kick] Maximum time: 7.000000
+[20:08:41:054] [kick] tMax = 5.210000
+[20:08:41:054] [kick] Generated spline, tMax=5.210000
+[20:08:41:081] [kick] Generating spline for 'lateral' kick
+[20:08:41:082] [kick] Generating kick
+[20:08:41:082] [kick] Maximum time: 7.000000
+[20:08:41:084] [kick] tMax = 3.270000
+[20:08:41:084] [kick] Generated spline, tMax=3.270000
+[20:08:41:101] [kick] Generating spline for 'small' kick
+[20:08:41:102] [kick] Generating kick
+[20:08:41:102] [kick] Maximum time: 4.000000
+[20:08:41:103] [kick] tMax = 2.605000
+[20:08:41:103] [kick] Generated spline, tMax=2.605000
+[20:08:41:186] [MDPKickController] Loading policy at '../common/kick_controler/shared_policy.json'
+[20:08:41:187] [MDPKickController] Loading problem at '../common/kick_controler/shared_problem.json'
+[20:08:41:195] [LearnedApproach] Loading policy 'classic' at 'learned_approach/classic/policy.json'
+[20:08:41:196] [LearnedApproach] Loading policy 'lateral' at 'learned_approach/lateral/policy.json'
+[20:08:41:198] [LearnedApproach] Loading policy 'opportunist' at 'learned_approach/opportunist/policy.json'
+[20:08:41:199] [LearnedApproach] Loading policy 'small' at 'learned_approach/small/policy.json'
+[20:08:41:200] [LearnedApproach] Loading problem 'classic' at 'learned_approach/classic/policy.json'
+[20:08:41:200] [LearnedApproach] Loading problem 'lateral' at 'learned_approach/lateral/policy.json'
+[20:08:41:201] [LearnedApproach] Loading problem 'opportunist' at 'learned_approach/opportunist/policy.json'
+[20:08:41:201] [LearnedApproach] Loading problem 'small' at 'learned_approach/small/policy.json'
+Reading RhAL config
+Scanning the bus
+Starting RhIO binding
+Starting RhAL Manager thread
+Initializing scheduler binding
+Move scheduler initilized.
+Initializing Vision
+Reading camera parameters from ./camera_calib.yml
+[20:08:44:188] [vision_robocup] Starting Robocup Pipeline
+adding from ./../common/vision_filters/colors.json
+adding from ./../common/vision_filters/ball_detection.json
+adding from ./../common/vision_filters/clipping.json
+adding from ./../common/vision_filters/goals.json
+adding from ./../common/vision_filters/robots.json
+There is now 30 filters.
+Vision initialized.
+Initializing LocalisationBinding
+[20:08:44:197] [vision_robocup] no frame for 66.446262, reseting the ball filter
+Reading camera parameters from ./camera_calib.yml
+LocalisationBinding initialized.
+Starting main scheduler loop
+[20:08:44:203] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:08:44:203] [RobocupFieldPF] Referee forbid ticks
+[20:08:44:203] [RobocupFieldPF] Step time: 0.000140
+[20:08:46:585] [SourcePtGrey] Capturing OK
+[20:08:46:597] [SourcePtGrey] Update properties OK
+[20:08:46:613] [SourcePtGrey] Update properties information OK
+Difference found in configuration for property: 'FrameRate'
+Difference between values:0
+Difference found in configuration for property: 'Gain'
+Difference between values:-0.0340919
+Difference found in configuration for property: 'Shutter'
+Difference between values:-0.000236034
+Difference found in configuration for property: 'WhiteBalance'
+Difference between values:0
+[20:08:46:636] [SourcePtGrey] ApplyWishedProperties OK
+[20:08:46:636] [SourcePtGrey] bindProperties OK
+[20:08:46:637] [SourcePtGrey] setEmbeddedImageInfo OK
+Difference found in configuration for property: 'Brightness'
+Difference between values:0
+Difference found in configuration for property: 'Exposure'
+Difference between values:0
+SourcePtGrey:: Warning: Elapsed time: 68943.3 ms
+[20:08:46:748] [vision_robocup] Suspicious elapsed time: 68.948000 [s]
+[20:08:46:749] [vision_robocup] Disabling vision (fallen)
+[20:08:47:209] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:08:47:209] [RobocupFieldPF] Referee forbid ticks
+[20:08:47:209] [RobocupFieldPF] Step time: 0.000113
+[20:08:50:216] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:08:50:216] [RobocupFieldPF] Referee forbid ticks
+[20:08:50:216] [RobocupFieldPF] Step time: 0.000115
+[20:08:53:223] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:08:53:223] [RobocupFieldPF] Referee forbid ticks
+[20:08:53:223] [RobocupFieldPF] Step time: 0.000102
+[20:08:56:229] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:08:56:229] [RobocupFieldPF] Referee forbid ticks
+[20:08:56:229] [RobocupFieldPF] Step time: 0.000094
+[20:08:59:236] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:08:59:236] [RobocupFieldPF] Referee forbid ticks
+[20:08:59:236] [RobocupFieldPF] Step time: 0.000105
+[20:09:02:242] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:02:242] [RobocupFieldPF] Referee forbid ticks
+[20:09:02:242] [RobocupFieldPF] Step time: 0.000091
+[20:09:05:249] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:05:249] [RobocupFieldPF] Referee forbid ticks
+[20:09:05:249] [RobocupFieldPF] Step time: 0.000106
+[20:09:08:255] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:08:255] [RobocupFieldPF] Referee forbid ticks
+[20:09:08:255] [RobocupFieldPF] Step time: 0.000096
+[20:09:11:262] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:11:262] [RobocupFieldPF] Referee forbid ticks
+[20:09:11:262] [RobocupFieldPF] Step time: 0.000121
+[20:09:14:268] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:14:268] [RobocupFieldPF] Referee forbid ticks
+[20:09:14:268] [RobocupFieldPF] Step time: 0.000101
+[20:09:17:275] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:17:275] [RobocupFieldPF] Referee forbid ticks
+[20:09:17:275] [RobocupFieldPF] Step time: 0.000120
+[20:09:20:282] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:20:282] [RobocupFieldPF] Referee forbid ticks
+[20:09:20:282] [RobocupFieldPF] Step time: 0.000114
+[20:09:23:288] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:23:288] [RobocupFieldPF] Referee forbid ticks
+[20:09:23:288] [RobocupFieldPF] Step time: 0.000109
+[20:09:26:295] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:26:295] [RobocupFieldPF] Referee forbid ticks
+[20:09:26:295] [RobocupFieldPF] Step time: 0.000123
+[20:09:29:302] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:29:302] [RobocupFieldPF] Referee forbid ticks
+[20:09:29:302] [RobocupFieldPF] Step time: 0.000101
+[20:09:32:308] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:32:308] [RobocupFieldPF] Referee forbid ticks
+[20:09:32:308] [RobocupFieldPF] Step time: 0.000097
+[20:09:35:314] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:35:314] [RobocupFieldPF] Referee forbid ticks
+[20:09:35:314] [RobocupFieldPF] Step time: 0.000098
+[20:09:38:321] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:38:321] [RobocupFieldPF] Referee forbid ticks
+[20:09:38:321] [RobocupFieldPF] Step time: 0.000122
+[20:09:41:327] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:41:327] [RobocupFieldPF] Referee forbid ticks
+[20:09:41:327] [RobocupFieldPF] Step time: 0.000104
+[20:09:44:334] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:44:334] [RobocupFieldPF] Referee forbid ticks
+[20:09:44:334] [RobocupFieldPF] Step time: 0.000119
+[20:09:47:340] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:47:340] [RobocupFieldPF] Referee forbid ticks
+[20:09:47:341] [RobocupFieldPF] Step time: 0.000120
+[20:09:50:347] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:50:347] [RobocupFieldPF] Referee forbid ticks
+[20:09:50:347] [RobocupFieldPF] Step time: 0.000099
+[20:09:53:354] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:53:354] [RobocupFieldPF] Referee forbid ticks
+[20:09:53:354] [RobocupFieldPF] Step time: 0.000119
+[20:09:56:360] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:56:360] [RobocupFieldPF] Referee forbid ticks
+[20:09:56:360] [RobocupFieldPF] Step time: 0.000104
+[20:09:59:367] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:09:59:367] [RobocupFieldPF] Referee forbid ticks
+[20:09:59:367] [RobocupFieldPF] Step time: 0.000119
+[20:10:02:373] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:02:373] [RobocupFieldPF] Referee forbid ticks
+[20:10:02:373] [RobocupFieldPF] Step time: 0.000103
+[20:10:05:380] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:05:380] [RobocupFieldPF] Referee forbid ticks
+[20:10:05:380] [RobocupFieldPF] Step time: 0.000095
+[20:10:08:386] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:08:386] [RobocupFieldPF] Referee forbid ticks
+[20:10:08:386] [RobocupFieldPF] Step time: 0.000096
+[20:10:11:393] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:11:393] [RobocupFieldPF] Referee forbid ticks
+[20:10:11:393] [RobocupFieldPF] Step time: 0.000101
+[20:10:14:400] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:14:400] [RobocupFieldPF] Referee forbid ticks
+[20:10:14:400] [RobocupFieldPF] Step time: 0.000095
+[20:10:17:406] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:17:406] [RobocupFieldPF] Referee forbid ticks
+[20:10:17:406] [RobocupFieldPF] Step time: 0.000099
+[20:10:20:413] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:20:413] [RobocupFieldPF] Referee forbid ticks
+[20:10:20:413] [RobocupFieldPF] Step time: 0.000105
+[20:10:23:419] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:23:419] [RobocupFieldPF] Referee forbid ticks
+[20:10:23:419] [RobocupFieldPF] Step time: 0.000095
+[20:10:26:426] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:26:426] [RobocupFieldPF] Referee forbid ticks
+[20:10:26:426] [RobocupFieldPF] Step time: 0.000097
+[20:10:29:432] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:29:432] [RobocupFieldPF] Referee forbid ticks
+[20:10:29:432] [RobocupFieldPF] Step time: 0.000122
+[20:10:32:439] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:32:439] [RobocupFieldPF] Referee forbid ticks
+[20:10:32:439] [RobocupFieldPF] Step time: 0.000124
+[20:10:35:446] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:35:446] [RobocupFieldPF] Referee forbid ticks
+[20:10:35:446] [RobocupFieldPF] Step time: 0.000120
+[20:10:38:452] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:38:452] [RobocupFieldPF] Referee forbid ticks
+[20:10:38:452] [RobocupFieldPF] Step time: 0.000119
+[20:10:41:459] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:41:459] [RobocupFieldPF] Referee forbid ticks
+[20:10:41:459] [RobocupFieldPF] Step time: 0.000099
+[20:10:44:465] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:44:465] [RobocupFieldPF] Referee forbid ticks
+[20:10:44:465] [RobocupFieldPF] Step time: 0.000095
+[20:10:47:472] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:47:472] [RobocupFieldPF] Referee forbid ticks
+[20:10:47:472] [RobocupFieldPF] Step time: 0.000123
+[20:10:50:478] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:50:479] [RobocupFieldPF] Referee forbid ticks
+[20:10:50:479] [RobocupFieldPF] Step time: 0.000111
+[20:10:53:485] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:53:485] [RobocupFieldPF] Referee forbid ticks
+[20:10:53:485] [RobocupFieldPF] Step time: 0.000096
+[20:10:56:492] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:56:492] [RobocupFieldPF] Referee forbid ticks
+[20:10:56:492] [RobocupFieldPF] Step time: 0.000117
+[20:10:59:498] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:10:59:498] [RobocupFieldPF] Referee forbid ticks
+[20:10:59:498] [RobocupFieldPF] Step time: 0.000097
+[20:11:02:505] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:02:505] [RobocupFieldPF] Referee forbid ticks
+[20:11:02:505] [RobocupFieldPF] Step time: 0.000096
+[20:11:05:511] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:05:511] [RobocupFieldPF] Referee forbid ticks
+[20:11:05:511] [RobocupFieldPF] Step time: 0.000123
+[20:11:08:518] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:08:518] [RobocupFieldPF] Referee forbid ticks
+[20:11:08:518] [RobocupFieldPF] Step time: 0.000100
+[20:11:11:524] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:11:524] [RobocupFieldPF] Referee forbid ticks
+[20:11:11:524] [RobocupFieldPF] Step time: 0.000120
+[20:11:14:531] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:14:531] [RobocupFieldPF] Referee forbid ticks
+[20:11:14:531] [RobocupFieldPF] Step time: 0.000101
+[20:11:17:538] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:17:538] [RobocupFieldPF] Referee forbid ticks
+[20:11:17:538] [RobocupFieldPF] Step time: 0.000126
+[20:11:20:544] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:20:544] [RobocupFieldPF] Referee forbid ticks
+[20:11:20:544] [RobocupFieldPF] Step time: 0.000097
+[20:11:23:551] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:23:551] [RobocupFieldPF] Referee forbid ticks
+[20:11:23:551] [RobocupFieldPF] Step time: 0.000121
+[20:11:26:557] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:26:557] [RobocupFieldPF] Referee forbid ticks
+[20:11:26:557] [RobocupFieldPF] Step time: 0.000118
+[20:11:29:564] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:29:564] [RobocupFieldPF] Referee forbid ticks
+[20:11:29:564] [RobocupFieldPF] Step time: 0.000094
+[20:11:32:570] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:32:570] [RobocupFieldPF] Referee forbid ticks
+[20:11:32:571] [RobocupFieldPF] Step time: 0.000123
+[20:11:35:577] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:35:577] [RobocupFieldPF] Referee forbid ticks
+[20:11:35:577] [RobocupFieldPF] Step time: 0.000118
+[20:11:38:584] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:38:584] [RobocupFieldPF] Referee forbid ticks
+[20:11:38:584] [RobocupFieldPF] Step time: 0.000094
+[20:11:41:590] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:41:590] [RobocupFieldPF] Referee forbid ticks
+[20:11:41:590] [RobocupFieldPF] Step time: 0.000131
+[20:11:44:597] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:44:597] [RobocupFieldPF] Referee forbid ticks
+[20:11:44:597] [RobocupFieldPF] Step time: 0.000098
+[20:11:47:603] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:47:603] [RobocupFieldPF] Referee forbid ticks
+[20:11:47:603] [RobocupFieldPF] Step time: 0.000094
+[20:11:50:610] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:50:610] [RobocupFieldPF] Referee forbid ticks
+[20:11:50:610] [RobocupFieldPF] Step time: 0.000115
+[20:11:53:616] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:53:616] [RobocupFieldPF] Referee forbid ticks
+[20:11:53:616] [RobocupFieldPF] Step time: 0.000144
+[20:11:56:623] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:56:623] [RobocupFieldPF] Referee forbid ticks
+[20:11:56:623] [RobocupFieldPF] Step time: 0.000117
+[20:11:59:630] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:11:59:630] [RobocupFieldPF] Referee forbid ticks
+[20:11:59:630] [RobocupFieldPF] Step time: 0.000115
+[20:12:02:636] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:02:636] [RobocupFieldPF] Referee forbid ticks
+[20:12:02:636] [RobocupFieldPF] Step time: 0.000104
+[20:12:05:643] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:05:643] [RobocupFieldPF] Referee forbid ticks
+[20:12:05:643] [RobocupFieldPF] Step time: 0.000109
+[20:12:08:649] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:08:649] [RobocupFieldPF] Referee forbid ticks
+[20:12:08:649] [RobocupFieldPF] Step time: 0.000097
+[20:12:11:656] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:11:656] [RobocupFieldPF] Referee forbid ticks
+[20:12:11:656] [RobocupFieldPF] Step time: 0.000094
+[20:12:14:662] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:14:662] [RobocupFieldPF] Referee forbid ticks
+[20:12:14:662] [RobocupFieldPF] Step time: 0.000094
+[20:12:17:669] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:17:669] [RobocupFieldPF] Referee forbid ticks
+[20:12:17:669] [RobocupFieldPF] Step time: 0.000107
+[20:12:20:675] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:20:675] [RobocupFieldPF] Referee forbid ticks
+[20:12:20:675] [RobocupFieldPF] Step time: 0.000100
+[20:12:23:682] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:23:682] [RobocupFieldPF] Referee forbid ticks
+[20:12:23:682] [RobocupFieldPF] Step time: 0.000095
+[20:12:26:689] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:26:689] [RobocupFieldPF] Referee forbid ticks
+[20:12:26:689] [RobocupFieldPF] Step time: 0.000122
+[20:12:29:695] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:29:695] [RobocupFieldPF] Referee forbid ticks
+[20:12:29:695] [RobocupFieldPF] Step time: 0.000101
+[20:12:32:702] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:32:702] [RobocupFieldPF] Referee forbid ticks
+[20:12:32:702] [RobocupFieldPF] Step time: 0.000103
+[20:12:35:708] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:35:708] [RobocupFieldPF] Referee forbid ticks
+[20:12:35:708] [RobocupFieldPF] Step time: 0.000115
+[20:12:38:715] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:38:715] [RobocupFieldPF] Referee forbid ticks
+[20:12:38:715] [RobocupFieldPF] Step time: 0.000116
+[20:12:41:721] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:41:721] [RobocupFieldPF] Referee forbid ticks
+[20:12:41:721] [RobocupFieldPF] Step time: 0.000104
+[20:12:44:728] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:44:728] [RobocupFieldPF] Referee forbid ticks
+[20:12:44:728] [RobocupFieldPF] Step time: 0.000093
+[20:12:47:735] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:47:735] [RobocupFieldPF] Referee forbid ticks
+[20:12:47:735] [RobocupFieldPF] Step time: 0.000104
+[20:12:50:741] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:50:741] [RobocupFieldPF] Referee forbid ticks
+[20:12:50:741] [RobocupFieldPF] Step time: 0.000097
+[20:12:53:748] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:53:748] [RobocupFieldPF] Referee forbid ticks
+[20:12:53:748] [RobocupFieldPF] Step time: 0.000094
+[20:12:56:754] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:56:754] [RobocupFieldPF] Referee forbid ticks
+[20:12:56:754] [RobocupFieldPF] Step time: 0.000124
+[20:12:59:761] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:12:59:761] [RobocupFieldPF] Referee forbid ticks
+[20:12:59:761] [RobocupFieldPF] Step time: 0.000106
+[20:13:02:767] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:02:767] [RobocupFieldPF] Referee forbid ticks
+[20:13:02:767] [RobocupFieldPF] Step time: 0.000093
+[20:13:05:774] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:05:774] [RobocupFieldPF] Referee forbid ticks
+[20:13:05:774] [RobocupFieldPF] Step time: 0.000116
+[20:13:08:781] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:08:781] [RobocupFieldPF] Referee forbid ticks
+[20:13:08:781] [RobocupFieldPF] Step time: 0.000118
+[20:13:11:787] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:11:787] [RobocupFieldPF] Referee forbid ticks
+[20:13:11:787] [RobocupFieldPF] Step time: 0.000109
+[20:13:14:794] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:14:794] [RobocupFieldPF] Referee forbid ticks
+[20:13:14:794] [RobocupFieldPF] Step time: 0.000094
+[20:13:17:800] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:17:800] [RobocupFieldPF] Referee forbid ticks
+[20:13:17:800] [RobocupFieldPF] Step time: 0.000095
+[20:13:20:807] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:20:807] [RobocupFieldPF] Referee forbid ticks
+[20:13:20:807] [RobocupFieldPF] Step time: 0.000093
+[20:13:23:813] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:23:813] [RobocupFieldPF] Referee forbid ticks
+[20:13:23:813] [RobocupFieldPF] Step time: 0.000116
+[20:13:26:820] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:26:820] [RobocupFieldPF] Referee forbid ticks
+[20:13:26:820] [RobocupFieldPF] Step time: 0.000104
+[20:13:29:826] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:29:826] [RobocupFieldPF] Referee forbid ticks
+[20:13:29:826] [RobocupFieldPF] Step time: 0.000100
+[20:13:32:833] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:32:833] [RobocupFieldPF] Referee forbid ticks
+[20:13:32:833] [RobocupFieldPF] Step time: 0.000095
+[20:13:35:839] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:35:839] [RobocupFieldPF] Referee forbid ticks
+[20:13:35:839] [RobocupFieldPF] Step time: 0.000101
+[20:13:38:846] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:38:846] [RobocupFieldPF] Referee forbid ticks
+[20:13:38:846] [RobocupFieldPF] Step time: 0.000096
+[20:13:41:852] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:41:852] [RobocupFieldPF] Referee forbid ticks
+[20:13:41:852] [RobocupFieldPF] Step time: 0.000120
+[20:13:44:859] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:44:859] [RobocupFieldPF] Referee forbid ticks
+[20:13:44:859] [RobocupFieldPF] Step time: 0.000118
+[20:13:47:866] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:47:866] [RobocupFieldPF] Referee forbid ticks
+[20:13:47:866] [RobocupFieldPF] Step time: 0.000093
+[20:13:50:872] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:50:872] [RobocupFieldPF] Referee forbid ticks
+[20:13:50:872] [RobocupFieldPF] Step time: 0.000096
+[20:13:53:879] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:53:879] [RobocupFieldPF] Referee forbid ticks
+[20:13:53:879] [RobocupFieldPF] Step time: 0.000096
+[20:13:56:885] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:56:885] [RobocupFieldPF] Referee forbid ticks
+[20:13:56:885] [RobocupFieldPF] Step time: 0.000094
+[20:13:59:892] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:13:59:892] [RobocupFieldPF] Referee forbid ticks
+[20:13:59:892] [RobocupFieldPF] Step time: 0.000122
+[20:14:02:898] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:02:898] [RobocupFieldPF] Referee forbid ticks
+[20:14:02:898] [RobocupFieldPF] Step time: 0.000121
+[20:14:05:905] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:05:905] [RobocupFieldPF] Referee forbid ticks
+[20:14:05:905] [RobocupFieldPF] Step time: 0.000099
+[20:14:08:912] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:08:912] [RobocupFieldPF] Referee forbid ticks
+[20:14:08:912] [RobocupFieldPF] Step time: 0.000118
+[20:14:11:918] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:11:918] [RobocupFieldPF] Referee forbid ticks
+[20:14:11:918] [RobocupFieldPF] Step time: 0.000114
+[20:14:14:925] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:14:925] [RobocupFieldPF] Referee forbid ticks
+[20:14:14:925] [RobocupFieldPF] Step time: 0.000118
+[20:14:17:931] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:17:931] [RobocupFieldPF] Referee forbid ticks
+[20:14:17:931] [RobocupFieldPF] Step time: 0.000100
+[20:14:20:938] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:20:938] [RobocupFieldPF] Referee forbid ticks
+[20:14:20:938] [RobocupFieldPF] Step time: 0.000091
+[20:14:23:944] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:23:945] [RobocupFieldPF] Referee forbid ticks
+[20:14:23:945] [RobocupFieldPF] Step time: 0.000094
+[20:14:26:951] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:26:951] [RobocupFieldPF] Referee forbid ticks
+[20:14:26:951] [RobocupFieldPF] Step time: 0.000098
+[20:14:29:958] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:29:958] [RobocupFieldPF] Referee forbid ticks
+[20:14:29:958] [RobocupFieldPF] Step time: 0.000104
+[20:14:32:964] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:32:964] [RobocupFieldPF] Referee forbid ticks
+[20:14:32:964] [RobocupFieldPF] Step time: 0.000093
+[20:14:35:971] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:35:971] [RobocupFieldPF] Referee forbid ticks
+[20:14:35:971] [RobocupFieldPF] Step time: 0.000121
+[20:14:38:977] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:38:977] [RobocupFieldPF] Referee forbid ticks
+[20:14:38:977] [RobocupFieldPF] Step time: 0.000120
+[20:14:41:984] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:41:984] [RobocupFieldPF] Referee forbid ticks
+[20:14:41:984] [RobocupFieldPF] Step time: 0.000115
+[20:14:44:991] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:44:991] [RobocupFieldPF] Referee forbid ticks
+[20:14:44:991] [RobocupFieldPF] Step time: 0.000097
+[20:14:47:997] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:47:997] [RobocupFieldPF] Referee forbid ticks
+[20:14:47:997] [RobocupFieldPF] Step time: 0.000109
+[20:14:51:004] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:51:004] [RobocupFieldPF] Referee forbid ticks
+[20:14:51:004] [RobocupFieldPF] Step time: 0.000119
+[20:14:54:010] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:54:010] [RobocupFieldPF] Referee forbid ticks
+[20:14:54:010] [RobocupFieldPF] Step time: 0.000099
+[20:14:57:017] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:14:57:017] [RobocupFieldPF] Referee forbid ticks
+[20:14:57:017] [RobocupFieldPF] Step time: 0.000098
+[20:15:00:024] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:00:024] [RobocupFieldPF] Referee forbid ticks
+[20:15:00:024] [RobocupFieldPF] Step time: 0.000099
+[20:15:03:030] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:03:030] [RobocupFieldPF] Referee forbid ticks
+[20:15:03:030] [RobocupFieldPF] Step time: 0.000106
+[20:15:06:037] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:06:037] [RobocupFieldPF] Referee forbid ticks
+[20:15:06:037] [RobocupFieldPF] Step time: 0.000109
+[20:15:09:043] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:09:043] [RobocupFieldPF] Referee forbid ticks
+[20:15:09:043] [RobocupFieldPF] Step time: 0.000103
+[20:15:12:050] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:12:050] [RobocupFieldPF] Referee forbid ticks
+[20:15:12:050] [RobocupFieldPF] Step time: 0.000098
+[20:15:15:057] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:15:057] [RobocupFieldPF] Referee forbid ticks
+[20:15:15:057] [RobocupFieldPF] Step time: 0.000121
+[20:15:18:063] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:18:063] [RobocupFieldPF] Referee forbid ticks
+[20:15:18:063] [RobocupFieldPF] Step time: 0.000123
+[20:15:21:070] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:21:070] [RobocupFieldPF] Referee forbid ticks
+[20:15:21:070] [RobocupFieldPF] Step time: 0.000099
+[20:15:24:076] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:24:076] [RobocupFieldPF] Referee forbid ticks
+[20:15:24:076] [RobocupFieldPF] Step time: 0.000103
+[20:15:27:083] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:27:083] [RobocupFieldPF] Referee forbid ticks
+[20:15:27:083] [RobocupFieldPF] Step time: 0.000098
+[20:15:30:089] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:30:089] [RobocupFieldPF] Referee forbid ticks
+[20:15:30:089] [RobocupFieldPF] Step time: 0.000100
+[20:15:33:096] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:33:096] [RobocupFieldPF] Referee forbid ticks
+[20:15:33:096] [RobocupFieldPF] Step time: 0.000100
+[20:15:36:102] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:36:102] [RobocupFieldPF] Referee forbid ticks
+[20:15:36:102] [RobocupFieldPF] Step time: 0.000096
+[20:15:39:109] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:39:109] [RobocupFieldPF] Referee forbid ticks
+[20:15:39:109] [RobocupFieldPF] Step time: 0.000120
+[20:15:42:116] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:42:116] [RobocupFieldPF] Referee forbid ticks
+[20:15:42:116] [RobocupFieldPF] Step time: 0.000123
+[20:15:45:122] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:45:122] [RobocupFieldPF] Referee forbid ticks
+[20:15:45:122] [RobocupFieldPF] Step time: 0.000098
+[20:15:48:129] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:48:129] [RobocupFieldPF] Referee forbid ticks
+[20:15:48:129] [RobocupFieldPF] Step time: 0.000124
+[20:15:51:135] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:51:136] [RobocupFieldPF] Referee forbid ticks
+[20:15:51:136] [RobocupFieldPF] Step time: 0.000098
+[20:15:54:142] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:54:142] [RobocupFieldPF] Referee forbid ticks
+[20:15:54:142] [RobocupFieldPF] Step time: 0.000126
+[20:15:57:149] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:15:57:149] [RobocupFieldPF] Referee forbid ticks
+[20:15:57:149] [RobocupFieldPF] Step time: 0.000120
+[20:16:00:155] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:00:155] [RobocupFieldPF] Referee forbid ticks
+[20:16:00:155] [RobocupFieldPF] Step time: 0.000103
+[20:16:03:162] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:03:162] [RobocupFieldPF] Referee forbid ticks
+[20:16:03:162] [RobocupFieldPF] Step time: 0.000095
+[20:16:06:168] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:06:168] [RobocupFieldPF] Referee forbid ticks
+[20:16:06:168] [RobocupFieldPF] Step time: 0.000101
+[20:16:09:175] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:09:175] [RobocupFieldPF] Referee forbid ticks
+[20:16:09:175] [RobocupFieldPF] Step time: 0.000123
+[20:16:12:182] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:12:182] [RobocupFieldPF] Referee forbid ticks
+[20:16:12:182] [RobocupFieldPF] Step time: 0.000118
+[20:16:15:188] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:15:188] [RobocupFieldPF] Referee forbid ticks
+[20:16:15:188] [RobocupFieldPF] Step time: 0.000093
+[20:16:18:195] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:18:195] [RobocupFieldPF] Referee forbid ticks
+[20:16:18:195] [RobocupFieldPF] Step time: 0.000096
+[20:16:21:201] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:21:201] [RobocupFieldPF] Referee forbid ticks
+[20:16:21:201] [RobocupFieldPF] Step time: 0.000097
+[20:16:24:208] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:24:208] [RobocupFieldPF] Referee forbid ticks
+[20:16:24:208] [RobocupFieldPF] Step time: 0.000099
+[20:16:27:215] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:27:215] [RobocupFieldPF] Referee forbid ticks
+[20:16:27:215] [RobocupFieldPF] Step time: 0.000104
+[20:16:30:221] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:30:221] [RobocupFieldPF] Referee forbid ticks
+[20:16:30:221] [RobocupFieldPF] Step time: 0.000099
+[20:16:33:228] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:33:228] [RobocupFieldPF] Referee forbid ticks
+[20:16:33:228] [RobocupFieldPF] Step time: 0.000096
+[20:16:36:234] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:36:234] [RobocupFieldPF] Referee forbid ticks
+[20:16:36:234] [RobocupFieldPF] Step time: 0.000122
+[20:16:39:241] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:39:241] [RobocupFieldPF] Referee forbid ticks
+[20:16:39:241] [RobocupFieldPF] Step time: 0.000102
+[20:16:42:248] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:42:248] [RobocupFieldPF] Referee forbid ticks
+[20:16:42:248] [RobocupFieldPF] Step time: 0.000097
+[20:16:45:254] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:45:254] [RobocupFieldPF] Referee forbid ticks
+[20:16:45:254] [RobocupFieldPF] Step time: 0.000092
+[20:16:48:261] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:48:261] [RobocupFieldPF] Referee forbid ticks
+[20:16:48:261] [RobocupFieldPF] Step time: 0.000093
+[20:16:51:267] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:51:267] [RobocupFieldPF] Referee forbid ticks
+[20:16:51:267] [RobocupFieldPF] Step time: 0.000119
+[20:16:54:274] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:54:274] [RobocupFieldPF] Referee forbid ticks
+[20:16:54:274] [RobocupFieldPF] Step time: 0.000102
+[20:16:57:280] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:16:57:280] [RobocupFieldPF] Referee forbid ticks
+[20:16:57:280] [RobocupFieldPF] Step time: 0.000096
+[20:17:00:287] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:00:287] [RobocupFieldPF] Referee forbid ticks
+[20:17:00:287] [RobocupFieldPF] Step time: 0.000123
+[20:17:03:294] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:03:294] [RobocupFieldPF] Referee forbid ticks
+[20:17:03:294] [RobocupFieldPF] Step time: 0.000101
+[20:17:06:300] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:06:300] [RobocupFieldPF] Referee forbid ticks
+[20:17:06:300] [RobocupFieldPF] Step time: 0.000124
+[20:17:09:307] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:09:307] [RobocupFieldPF] Referee forbid ticks
+[20:17:09:307] [RobocupFieldPF] Step time: 0.000124
+[20:17:12:313] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:12:313] [RobocupFieldPF] Referee forbid ticks
+[20:17:12:313] [RobocupFieldPF] Step time: 0.000117
+[20:17:15:320] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:15:320] [RobocupFieldPF] Referee forbid ticks
+[20:17:15:320] [RobocupFieldPF] Step time: 0.000092
+[20:17:18:326] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:18:326] [RobocupFieldPF] Referee forbid ticks
+[20:17:18:326] [RobocupFieldPF] Step time: 0.000098
+[20:17:21:333] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:21:333] [RobocupFieldPF] Referee forbid ticks
+[20:17:21:333] [RobocupFieldPF] Step time: 0.000117
+[20:17:24:339] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:24:339] [RobocupFieldPF] Referee forbid ticks
+[20:17:24:339] [RobocupFieldPF] Step time: 0.000099
+[20:17:27:346] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:27:346] [RobocupFieldPF] Referee forbid ticks
+[20:17:27:346] [RobocupFieldPF] Step time: 0.000100
+[20:17:30:352] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:30:352] [RobocupFieldPF] Referee forbid ticks
+[20:17:30:353] [RobocupFieldPF] Step time: 0.000105
+[20:17:33:359] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:33:359] [RobocupFieldPF] Referee forbid ticks
+[20:17:33:359] [RobocupFieldPF] Step time: 0.000104
+[20:17:36:366] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:36:366] [RobocupFieldPF] Referee forbid ticks
+[20:17:36:366] [RobocupFieldPF] Step time: 0.000098
+[20:17:39:372] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:39:372] [RobocupFieldPF] Referee forbid ticks
+[20:17:39:372] [RobocupFieldPF] Step time: 0.000098
+[20:17:42:379] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:42:379] [RobocupFieldPF] Referee forbid ticks
+[20:17:42:379] [RobocupFieldPF] Step time: 0.000094
+[20:17:45:385] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:45:385] [RobocupFieldPF] Referee forbid ticks
+[20:17:45:385] [RobocupFieldPF] Step time: 0.000096
+[20:17:48:392] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:48:392] [RobocupFieldPF] Referee forbid ticks
+[20:17:48:392] [RobocupFieldPF] Step time: 0.000126
+[20:17:51:398] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:51:398] [RobocupFieldPF] Referee forbid ticks
+[20:17:51:398] [RobocupFieldPF] Step time: 0.000110
+[20:17:54:405] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:54:405] [RobocupFieldPF] Referee forbid ticks
+[20:17:54:405] [RobocupFieldPF] Step time: 0.000122
+[20:17:57:411] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:17:57:411] [RobocupFieldPF] Referee forbid ticks
+[20:17:57:411] [RobocupFieldPF] Step time: 0.000096
+[20:18:00:418] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:00:418] [RobocupFieldPF] Referee forbid ticks
+[20:18:00:418] [RobocupFieldPF] Step time: 0.000101
+[20:18:03:425] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:03:425] [RobocupFieldPF] Referee forbid ticks
+[20:18:03:425] [RobocupFieldPF] Step time: 0.000099
+[20:18:06:431] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:06:431] [RobocupFieldPF] Referee forbid ticks
+[20:18:06:431] [RobocupFieldPF] Step time: 0.000096
+[20:18:09:438] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:09:438] [RobocupFieldPF] Referee forbid ticks
+[20:18:09:438] [RobocupFieldPF] Step time: 0.000100
+[20:18:12:445] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:12:445] [RobocupFieldPF] Referee forbid ticks
+[20:18:12:445] [RobocupFieldPF] Step time: 0.000098
+[20:18:15:451] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:15:451] [RobocupFieldPF] Referee forbid ticks
+[20:18:15:451] [RobocupFieldPF] Step time: 0.000099
+[20:18:18:458] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:18:458] [RobocupFieldPF] Referee forbid ticks
+[20:18:18:458] [RobocupFieldPF] Step time: 0.000100
+[20:18:21:464] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:21:464] [RobocupFieldPF] Referee forbid ticks
+[20:18:21:464] [RobocupFieldPF] Step time: 0.000094
+[20:18:24:471] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:24:471] [RobocupFieldPF] Referee forbid ticks
+[20:18:24:471] [RobocupFieldPF] Step time: 0.000093
+[20:18:27:477] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:27:477] [RobocupFieldPF] Referee forbid ticks
+[20:18:27:477] [RobocupFieldPF] Step time: 0.000116
+[20:18:30:484] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:30:484] [RobocupFieldPF] Referee forbid ticks
+[20:18:30:484] [RobocupFieldPF] Step time: 0.000096
+[20:18:33:490] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:33:490] [RobocupFieldPF] Referee forbid ticks
+[20:18:33:490] [RobocupFieldPF] Step time: 0.000114
+[20:18:36:497] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:36:497] [RobocupFieldPF] Referee forbid ticks
+[20:18:36:497] [RobocupFieldPF] Step time: 0.000119
+[20:18:39:504] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:39:504] [RobocupFieldPF] Referee forbid ticks
+[20:18:39:504] [RobocupFieldPF] Step time: 0.000095
+[20:18:42:510] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:42:510] [RobocupFieldPF] Referee forbid ticks
+[20:18:42:510] [RobocupFieldPF] Step time: 0.000094
+[20:18:45:517] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:45:517] [RobocupFieldPF] Referee forbid ticks
+[20:18:45:517] [RobocupFieldPF] Step time: 0.000102
+[20:18:48:523] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:48:523] [RobocupFieldPF] Referee forbid ticks
+[20:18:48:523] [RobocupFieldPF] Step time: 0.000100
+[20:18:51:530] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:51:530] [RobocupFieldPF] Referee forbid ticks
+[20:18:51:530] [RobocupFieldPF] Step time: 0.000094
+[20:18:54:536] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:54:536] [RobocupFieldPF] Referee forbid ticks
+[20:18:54:536] [RobocupFieldPF] Step time: 0.000102
+[20:18:57:543] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:18:57:543] [RobocupFieldPF] Referee forbid ticks
+[20:18:57:543] [RobocupFieldPF] Step time: 0.000102
+[20:19:00:549] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:00:549] [RobocupFieldPF] Referee forbid ticks
+[20:19:00:549] [RobocupFieldPF] Step time: 0.000118
+[20:19:03:556] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:03:556] [RobocupFieldPF] Referee forbid ticks
+[20:19:03:556] [RobocupFieldPF] Step time: 0.000122
+[20:19:06:562] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:06:562] [RobocupFieldPF] Referee forbid ticks
+[20:19:06:562] [RobocupFieldPF] Step time: 0.000119
+[20:19:09:569] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:09:569] [RobocupFieldPF] Referee forbid ticks
+[20:19:09:569] [RobocupFieldPF] Step time: 0.000100
+[20:19:12:575] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:12:575] [RobocupFieldPF] Referee forbid ticks
+[20:19:12:575] [RobocupFieldPF] Step time: 0.000103
+[20:19:15:582] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:15:582] [RobocupFieldPF] Referee forbid ticks
+[20:19:15:582] [RobocupFieldPF] Step time: 0.000121
+[20:19:18:589] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:18:589] [RobocupFieldPF] Referee forbid ticks
+[20:19:18:589] [RobocupFieldPF] Step time: 0.000152
+[20:19:21:595] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:21:595] [RobocupFieldPF] Referee forbid ticks
+[20:19:21:595] [RobocupFieldPF] Step time: 0.000132
+[20:19:24:602] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:24:602] [RobocupFieldPF] Referee forbid ticks
+[20:19:24:602] [RobocupFieldPF] Step time: 0.000121
+[20:19:27:608] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:27:608] [RobocupFieldPF] Referee forbid ticks
+[20:19:27:608] [RobocupFieldPF] Step time: 0.000091
+[20:19:30:615] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:30:615] [RobocupFieldPF] Referee forbid ticks
+[20:19:30:615] [RobocupFieldPF] Step time: 0.000107
+[20:19:33:621] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:33:621] [RobocupFieldPF] Referee forbid ticks
+[20:19:33:621] [RobocupFieldPF] Step time: 0.000111
+[20:19:36:628] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:36:628] [RobocupFieldPF] Referee forbid ticks
+[20:19:36:628] [RobocupFieldPF] Step time: 0.000120
+[20:19:39:635] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:39:635] [RobocupFieldPF] Referee forbid ticks
+[20:19:39:635] [RobocupFieldPF] Step time: 0.000117
+[20:19:42:641] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:42:641] [RobocupFieldPF] Referee forbid ticks
+[20:19:42:641] [RobocupFieldPF] Step time: 0.000125
+[20:19:45:648] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:45:648] [RobocupFieldPF] Referee forbid ticks
+[20:19:45:648] [RobocupFieldPF] Step time: 0.000120
+[20:19:48:655] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:48:655] [RobocupFieldPF] Referee forbid ticks
+[20:19:48:655] [RobocupFieldPF] Step time: 0.000101
+[20:19:51:661] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:51:661] [RobocupFieldPF] Referee forbid ticks
+[20:19:51:661] [RobocupFieldPF] Step time: 0.000128
+[20:19:54:668] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:54:668] [RobocupFieldPF] Referee forbid ticks
+[20:19:54:668] [RobocupFieldPF] Step time: 0.000131
+[20:19:57:674] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:19:57:674] [RobocupFieldPF] Referee forbid ticks
+[20:19:57:674] [RobocupFieldPF] Step time: 0.000099
+[20:20:00:681] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:00:681] [RobocupFieldPF] Referee forbid ticks
+[20:20:00:681] [RobocupFieldPF] Step time: 0.000123
+[20:20:03:687] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:03:687] [RobocupFieldPF] Referee forbid ticks
+[20:20:03:687] [RobocupFieldPF] Step time: 0.000098
+[20:20:06:694] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:06:694] [RobocupFieldPF] Referee forbid ticks
+[20:20:06:694] [RobocupFieldPF] Step time: 0.000113
+[20:20:09:701] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:09:701] [RobocupFieldPF] Referee forbid ticks
+[20:20:09:701] [RobocupFieldPF] Step time: 0.000097
+[20:20:12:707] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:12:707] [RobocupFieldPF] Referee forbid ticks
+[20:20:12:707] [RobocupFieldPF] Step time: 0.000121
+[20:20:15:714] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:15:714] [RobocupFieldPF] Referee forbid ticks
+[20:20:15:714] [RobocupFieldPF] Step time: 0.000098
+[20:20:18:720] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:18:720] [RobocupFieldPF] Referee forbid ticks
+[20:20:18:720] [RobocupFieldPF] Step time: 0.000112
+[20:20:21:727] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:21:727] [RobocupFieldPF] Referee forbid ticks
+[20:20:21:727] [RobocupFieldPF] Step time: 0.000101
+[20:20:24:733] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:24:733] [RobocupFieldPF] Referee forbid ticks
+[20:20:24:733] [RobocupFieldPF] Step time: 0.000134
+[20:20:27:740] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:27:740] [RobocupFieldPF] Referee forbid ticks
+[20:20:27:740] [RobocupFieldPF] Step time: 0.000100
+[20:20:30:746] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:30:746] [RobocupFieldPF] Referee forbid ticks
+[20:20:30:746] [RobocupFieldPF] Step time: 0.000117
+[20:20:33:753] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:33:753] [RobocupFieldPF] Referee forbid ticks
+[20:20:33:753] [RobocupFieldPF] Step time: 0.000116
+[20:20:36:759] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:36:759] [RobocupFieldPF] Referee forbid ticks
+[20:20:36:760] [RobocupFieldPF] Step time: 0.000112
+[20:20:39:766] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:39:766] [RobocupFieldPF] Referee forbid ticks
+[20:20:39:766] [RobocupFieldPF] Step time: 0.000113
+[20:20:42:773] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:42:773] [RobocupFieldPF] Referee forbid ticks
+[20:20:42:773] [RobocupFieldPF] Step time: 0.000092
+[20:20:45:779] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:45:779] [RobocupFieldPF] Referee forbid ticks
+[20:20:45:779] [RobocupFieldPF] Step time: 0.000099
+[20:20:48:786] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:48:786] [RobocupFieldPF] Referee forbid ticks
+[20:20:48:786] [RobocupFieldPF] Step time: 0.000112
+[20:20:51:792] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:51:792] [RobocupFieldPF] Referee forbid ticks
+[20:20:51:792] [RobocupFieldPF] Step time: 0.000099
+[20:20:54:799] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:54:799] [RobocupFieldPF] Referee forbid ticks
+[20:20:54:799] [RobocupFieldPF] Step time: 0.000118
+[20:20:57:805] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:20:57:805] [RobocupFieldPF] Referee forbid ticks
+[20:20:57:805] [RobocupFieldPF] Step time: 0.000096
+[20:21:00:812] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:00:812] [RobocupFieldPF] Referee forbid ticks
+[20:21:00:812] [RobocupFieldPF] Step time: 0.000095
+[20:21:03:818] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:03:818] [RobocupFieldPF] Referee forbid ticks
+[20:21:03:818] [RobocupFieldPF] Step time: 0.000098
+[20:21:06:825] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:06:825] [RobocupFieldPF] Referee forbid ticks
+[20:21:06:825] [RobocupFieldPF] Step time: 0.000097
+[20:21:09:831] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:09:831] [RobocupFieldPF] Referee forbid ticks
+[20:21:09:831] [RobocupFieldPF] Step time: 0.000097
+[20:21:12:838] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:12:838] [RobocupFieldPF] Referee forbid ticks
+[20:21:12:838] [RobocupFieldPF] Step time: 0.000121
+[20:21:15:844] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:15:844] [RobocupFieldPF] Referee forbid ticks
+[20:21:15:844] [RobocupFieldPF] Step time: 0.000099
+[20:21:18:851] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:18:851] [RobocupFieldPF] Referee forbid ticks
+[20:21:18:851] [RobocupFieldPF] Step time: 0.000126
+[20:21:21:858] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:21:858] [RobocupFieldPF] Referee forbid ticks
+[20:21:21:858] [RobocupFieldPF] Step time: 0.000093
+[20:21:24:864] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:24:864] [RobocupFieldPF] Referee forbid ticks
+[20:21:24:864] [RobocupFieldPF] Step time: 0.000094
+[20:21:27:871] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:27:871] [RobocupFieldPF] Referee forbid ticks
+[20:21:27:871] [RobocupFieldPF] Step time: 0.000129
+[20:21:30:877] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:30:877] [RobocupFieldPF] Referee forbid ticks
+[20:21:30:877] [RobocupFieldPF] Step time: 0.000106
+[20:21:33:884] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:33:884] [RobocupFieldPF] Referee forbid ticks
+[20:21:33:884] [RobocupFieldPF] Step time: 0.000097
+[20:21:36:890] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:36:890] [RobocupFieldPF] Referee forbid ticks
+[20:21:36:890] [RobocupFieldPF] Step time: 0.000115
+[20:21:39:897] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:39:897] [RobocupFieldPF] Referee forbid ticks
+[20:21:39:897] [RobocupFieldPF] Step time: 0.000122
+[20:21:42:903] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:42:903] [RobocupFieldPF] Referee forbid ticks
+[20:21:42:904] [RobocupFieldPF] Step time: 0.000103
+[20:21:45:910] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:45:910] [RobocupFieldPF] Referee forbid ticks
+[20:21:45:910] [RobocupFieldPF] Step time: 0.000100
+[20:21:48:917] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:48:917] [RobocupFieldPF] Referee forbid ticks
+[20:21:48:917] [RobocupFieldPF] Step time: 0.000099
+[20:21:51:923] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:51:923] [RobocupFieldPF] Referee forbid ticks
+[20:21:51:923] [RobocupFieldPF] Step time: 0.000094
+[20:21:54:930] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:54:930] [RobocupFieldPF] Referee forbid ticks
+[20:21:54:930] [RobocupFieldPF] Step time: 0.000094
+[20:21:57:936] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:21:57:936] [RobocupFieldPF] Referee forbid ticks
+[20:21:57:936] [RobocupFieldPF] Step time: 0.000091
+[20:22:00:943] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:00:943] [RobocupFieldPF] Referee forbid ticks
+[20:22:00:943] [RobocupFieldPF] Step time: 0.000122
+[20:22:03:950] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:03:950] [RobocupFieldPF] Referee forbid ticks
+[20:22:03:950] [RobocupFieldPF] Step time: 0.000094
+[20:22:06:956] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:06:956] [RobocupFieldPF] Referee forbid ticks
+[20:22:06:956] [RobocupFieldPF] Step time: 0.000104
+[20:22:09:963] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:09:963] [RobocupFieldPF] Referee forbid ticks
+[20:22:09:963] [RobocupFieldPF] Step time: 0.000094
+[20:22:12:969] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:12:969] [RobocupFieldPF] Referee forbid ticks
+[20:22:12:969] [RobocupFieldPF] Step time: 0.000100
+[20:22:15:976] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:15:976] [RobocupFieldPF] Referee forbid ticks
+[20:22:15:976] [RobocupFieldPF] Step time: 0.000120
+[20:22:18:982] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:18:983] [RobocupFieldPF] Referee forbid ticks
+[20:22:18:983] [RobocupFieldPF] Step time: 0.000120
+[20:22:21:989] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:21:989] [RobocupFieldPF] Referee forbid ticks
+[20:22:21:989] [RobocupFieldPF] Step time: 0.000091
+[20:22:24:996] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:24:996] [RobocupFieldPF] Referee forbid ticks
+[20:22:24:996] [RobocupFieldPF] Step time: 0.000124
+[20:22:28:002] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:28:002] [RobocupFieldPF] Referee forbid ticks
+[20:22:28:002] [RobocupFieldPF] Step time: 0.000118
+[20:22:31:009] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:31:009] [RobocupFieldPF] Referee forbid ticks
+[20:22:31:009] [RobocupFieldPF] Step time: 0.000102
+[20:22:34:015] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:34:015] [RobocupFieldPF] Referee forbid ticks
+[20:22:34:015] [RobocupFieldPF] Step time: 0.000101
+[20:22:37:022] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:37:022] [RobocupFieldPF] Referee forbid ticks
+[20:22:37:022] [RobocupFieldPF] Step time: 0.000119
+[20:22:40:029] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:40:029] [RobocupFieldPF] Referee forbid ticks
+[20:22:40:029] [RobocupFieldPF] Step time: 0.000101
+[20:22:43:035] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:43:035] [RobocupFieldPF] Referee forbid ticks
+[20:22:43:035] [RobocupFieldPF] Step time: 0.000101
+[20:22:46:042] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:46:042] [RobocupFieldPF] Referee forbid ticks
+[20:22:46:042] [RobocupFieldPF] Step time: 0.000116
+[20:22:49:048] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:49:048] [RobocupFieldPF] Referee forbid ticks
+[20:22:49:048] [RobocupFieldPF] Step time: 0.000121
+[20:22:52:055] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:52:055] [RobocupFieldPF] Referee forbid ticks
+[20:22:52:055] [RobocupFieldPF] Step time: 0.000102
+[20:22:55:061] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:55:061] [RobocupFieldPF] Referee forbid ticks
+[20:22:55:061] [RobocupFieldPF] Step time: 0.000119
+[20:22:58:068] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:22:58:068] [RobocupFieldPF] Referee forbid ticks
+[20:22:58:068] [RobocupFieldPF] Step time: 0.000105
+[20:23:01:074] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:01:074] [RobocupFieldPF] Referee forbid ticks
+[20:23:01:074] [RobocupFieldPF] Step time: 0.000095
+[20:23:04:081] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:04:081] [RobocupFieldPF] Referee forbid ticks
+[20:23:04:081] [RobocupFieldPF] Step time: 0.000100
+[20:23:07:087] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:07:087] [RobocupFieldPF] Referee forbid ticks
+[20:23:07:087] [RobocupFieldPF] Step time: 0.000130
+[20:23:10:094] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:10:094] [RobocupFieldPF] Referee forbid ticks
+[20:23:10:094] [RobocupFieldPF] Step time: 0.000114
+[20:23:13:100] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:13:100] [RobocupFieldPF] Referee forbid ticks
+[20:23:13:100] [RobocupFieldPF] Step time: 0.000109
+[20:23:16:106] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:16:106] [RobocupFieldPF] Referee forbid ticks
+[20:23:16:106] [RobocupFieldPF] Step time: 0.000091
+[20:23:19:112] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:19:113] [RobocupFieldPF] Referee forbid ticks
+[20:23:19:113] [RobocupFieldPF] Step time: 0.000091
+[20:23:22:119] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:22:119] [RobocupFieldPF] Referee forbid ticks
+[20:23:22:119] [RobocupFieldPF] Step time: 0.000091
+[20:23:25:125] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:25:125] [RobocupFieldPF] Referee forbid ticks
+[20:23:25:125] [RobocupFieldPF] Step time: 0.000119
+[20:23:28:132] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:28:132] [RobocupFieldPF] Referee forbid ticks
+[20:23:28:132] [RobocupFieldPF] Step time: 0.000091
+[20:23:31:138] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:31:138] [RobocupFieldPF] Referee forbid ticks
+[20:23:31:138] [RobocupFieldPF] Step time: 0.000106
+[20:23:34:144] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:34:144] [RobocupFieldPF] Referee forbid ticks
+[20:23:34:144] [RobocupFieldPF] Step time: 0.000091
+[20:23:37:151] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:37:151] [RobocupFieldPF] Referee forbid ticks
+[20:23:37:151] [RobocupFieldPF] Step time: 0.000100
+[20:23:40:157] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:40:157] [RobocupFieldPF] Referee forbid ticks
+[20:23:40:157] [RobocupFieldPF] Step time: 0.000108
+[20:23:43:163] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:43:163] [RobocupFieldPF] Referee forbid ticks
+[20:23:43:163] [RobocupFieldPF] Step time: 0.000088
+[20:23:46:169] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:46:169] [RobocupFieldPF] Referee forbid ticks
+[20:23:46:169] [RobocupFieldPF] Step time: 0.000111
+[20:23:49:176] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:49:176] [RobocupFieldPF] Referee forbid ticks
+[20:23:49:176] [RobocupFieldPF] Step time: 0.000118
+[20:23:52:182] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:52:182] [RobocupFieldPF] Referee forbid ticks
+[20:23:52:182] [RobocupFieldPF] Step time: 0.000090
+[20:23:55:189] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:55:189] [RobocupFieldPF] Referee forbid ticks
+[20:23:55:189] [RobocupFieldPF] Step time: 0.000090
+[20:23:58:195] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:23:58:195] [RobocupFieldPF] Referee forbid ticks
+[20:23:58:195] [RobocupFieldPF] Step time: 0.000092
+[20:24:01:201] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:01:201] [RobocupFieldPF] Referee forbid ticks
+[20:24:01:201] [RobocupFieldPF] Step time: 0.000115
+[20:24:04:208] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:04:208] [RobocupFieldPF] Referee forbid ticks
+[20:24:04:208] [RobocupFieldPF] Step time: 0.000090
+[20:24:07:214] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:07:214] [RobocupFieldPF] Referee forbid ticks
+[20:24:07:214] [RobocupFieldPF] Step time: 0.000115
+[20:24:10:220] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:10:220] [RobocupFieldPF] Referee forbid ticks
+[20:24:10:220] [RobocupFieldPF] Step time: 0.000107
+[20:24:13:227] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:13:227] [RobocupFieldPF] Referee forbid ticks
+[20:24:13:227] [RobocupFieldPF] Step time: 0.000113
+[20:24:16:233] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:16:233] [RobocupFieldPF] Referee forbid ticks
+[20:24:16:233] [RobocupFieldPF] Step time: 0.000113
+[20:24:19:239] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:19:239] [RobocupFieldPF] Referee forbid ticks
+[20:24:19:239] [RobocupFieldPF] Step time: 0.000115
+[20:24:22:245] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:22:245] [RobocupFieldPF] Referee forbid ticks
+[20:24:22:245] [RobocupFieldPF] Step time: 0.000113
+[20:24:25:251] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:25:251] [RobocupFieldPF] Referee forbid ticks
+[20:24:25:251] [RobocupFieldPF] Step time: 0.000116
+[20:24:28:257] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:28:257] [RobocupFieldPF] Referee forbid ticks
+[20:24:28:257] [RobocupFieldPF] Step time: 0.000114
+[20:24:31:263] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:31:263] [RobocupFieldPF] Referee forbid ticks
+[20:24:31:263] [RobocupFieldPF] Step time: 0.000115
+[20:24:34:269] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:34:269] [RobocupFieldPF] Referee forbid ticks
+[20:24:34:269] [RobocupFieldPF] Step time: 0.000111
+[20:24:37:275] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:37:275] [RobocupFieldPF] Referee forbid ticks
+[20:24:37:275] [RobocupFieldPF] Step time: 0.000112
+[20:24:40:281] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:40:281] [RobocupFieldPF] Referee forbid ticks
+[20:24:40:281] [RobocupFieldPF] Step time: 0.000130
+[20:24:43:287] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:43:287] [RobocupFieldPF] Referee forbid ticks
+[20:24:43:287] [RobocupFieldPF] Step time: 0.000110
+[20:24:46:293] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:46:293] [RobocupFieldPF] Referee forbid ticks
+[20:24:46:293] [RobocupFieldPF] Step time: 0.000109
+[20:24:49:299] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:49:299] [RobocupFieldPF] Referee forbid ticks
+[20:24:49:299] [RobocupFieldPF] Step time: 0.000111
+[20:24:52:305] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:52:305] [RobocupFieldPF] Referee forbid ticks
+[20:24:52:305] [RobocupFieldPF] Step time: 0.000110
+[20:24:55:311] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:55:311] [RobocupFieldPF] Referee forbid ticks
+[20:24:55:311] [RobocupFieldPF] Step time: 0.000115
+[20:24:58:317] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:24:58:317] [RobocupFieldPF] Referee forbid ticks
+[20:24:58:317] [RobocupFieldPF] Step time: 0.000113
+[20:25:01:323] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:01:323] [RobocupFieldPF] Referee forbid ticks
+[20:25:01:324] [RobocupFieldPF] Step time: 0.000115
+[20:25:04:329] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:04:330] [RobocupFieldPF] Referee forbid ticks
+[20:25:04:330] [RobocupFieldPF] Step time: 0.000114
+[20:25:07:336] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:07:336] [RobocupFieldPF] Referee forbid ticks
+[20:25:07:336] [RobocupFieldPF] Step time: 0.000116
+[20:25:10:342] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:10:342] [RobocupFieldPF] Referee forbid ticks
+[20:25:10:342] [RobocupFieldPF] Step time: 0.000114
+[20:25:13:348] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:13:348] [RobocupFieldPF] Referee forbid ticks
+[20:25:13:348] [RobocupFieldPF] Step time: 0.000115
+[20:25:16:354] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:16:354] [RobocupFieldPF] Referee forbid ticks
+[20:25:16:354] [RobocupFieldPF] Step time: 0.000086
+[20:25:19:360] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:19:360] [RobocupFieldPF] Referee forbid ticks
+[20:25:19:360] [RobocupFieldPF] Step time: 0.000117
+[20:25:22:366] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:22:366] [RobocupFieldPF] Referee forbid ticks
+[20:25:22:366] [RobocupFieldPF] Step time: 0.000113
+[20:25:25:372] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:25:372] [RobocupFieldPF] Referee forbid ticks
+[20:25:25:372] [RobocupFieldPF] Step time: 0.000115
+[20:25:28:378] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:28:378] [RobocupFieldPF] Referee forbid ticks
+[20:25:28:378] [RobocupFieldPF] Step time: 0.000115
+[20:25:31:384] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:31:384] [RobocupFieldPF] Referee forbid ticks
+[20:25:31:384] [RobocupFieldPF] Step time: 0.000094
+[20:25:34:390] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:34:390] [RobocupFieldPF] Referee forbid ticks
+[20:25:34:390] [RobocupFieldPF] Step time: 0.000095
+[20:25:37:396] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:37:396] [RobocupFieldPF] Referee forbid ticks
+[20:25:37:396] [RobocupFieldPF] Step time: 0.000093
+[20:25:40:402] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:40:402] [RobocupFieldPF] Referee forbid ticks
+[20:25:40:402] [RobocupFieldPF] Step time: 0.000115
+[20:25:43:408] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:43:408] [RobocupFieldPF] Referee forbid ticks
+[20:25:43:408] [RobocupFieldPF] Step time: 0.000131
+[20:25:46:414] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:46:414] [RobocupFieldPF] Referee forbid ticks
+[20:25:46:414] [RobocupFieldPF] Step time: 0.000090
+[20:25:49:420] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:49:420] [RobocupFieldPF] Referee forbid ticks
+[20:25:49:420] [RobocupFieldPF] Step time: 0.000110
+[20:25:52:427] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:52:427] [RobocupFieldPF] Referee forbid ticks
+[20:25:52:427] [RobocupFieldPF] Step time: 0.000108
+[20:25:55:433] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:55:433] [RobocupFieldPF] Referee forbid ticks
+[20:25:55:433] [RobocupFieldPF] Step time: 0.000116
+[20:25:58:439] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:25:58:439] [RobocupFieldPF] Referee forbid ticks
+[20:25:58:439] [RobocupFieldPF] Step time: 0.000106
+[20:26:01:445] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:01:445] [RobocupFieldPF] Referee forbid ticks
+[20:26:01:445] [RobocupFieldPF] Step time: 0.000113
+[20:26:04:451] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:04:451] [RobocupFieldPF] Referee forbid ticks
+[20:26:04:451] [RobocupFieldPF] Step time: 0.000116
+[20:26:07:457] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:07:457] [RobocupFieldPF] Referee forbid ticks
+[20:26:07:457] [RobocupFieldPF] Step time: 0.000116
+[20:26:10:463] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:10:463] [RobocupFieldPF] Referee forbid ticks
+[20:26:10:463] [RobocupFieldPF] Step time: 0.000101
+[20:26:13:469] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:13:469] [RobocupFieldPF] Referee forbid ticks
+[20:26:13:469] [RobocupFieldPF] Step time: 0.000113
+[20:26:16:475] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:16:475] [RobocupFieldPF] Referee forbid ticks
+[20:26:16:475] [RobocupFieldPF] Step time: 0.000114
+[20:26:19:481] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:19:481] [RobocupFieldPF] Referee forbid ticks
+[20:26:19:481] [RobocupFieldPF] Step time: 0.000117
+[20:26:22:487] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:22:487] [RobocupFieldPF] Referee forbid ticks
+[20:26:22:487] [RobocupFieldPF] Step time: 0.000116
+[20:26:25:493] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:25:493] [RobocupFieldPF] Referee forbid ticks
+[20:26:25:493] [RobocupFieldPF] Step time: 0.000114
+[20:26:28:500] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:28:500] [RobocupFieldPF] Referee forbid ticks
+[20:26:28:500] [RobocupFieldPF] Step time: 0.000088
+[20:26:31:506] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:31:506] [RobocupFieldPF] Referee forbid ticks
+[20:26:31:506] [RobocupFieldPF] Step time: 0.000090
+[20:26:34:512] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:34:512] [RobocupFieldPF] Referee forbid ticks
+[20:26:34:512] [RobocupFieldPF] Step time: 0.000089
+[20:26:37:519] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:37:519] [RobocupFieldPF] Referee forbid ticks
+[20:26:37:519] [RobocupFieldPF] Step time: 0.000093
+[20:26:40:525] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:40:525] [RobocupFieldPF] Referee forbid ticks
+[20:26:40:525] [RobocupFieldPF] Step time: 0.000089
+[20:26:43:531] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:43:531] [RobocupFieldPF] Referee forbid ticks
+[20:26:43:531] [RobocupFieldPF] Step time: 0.000098
+[20:26:46:538] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:46:538] [RobocupFieldPF] Referee forbid ticks
+[20:26:46:538] [RobocupFieldPF] Step time: 0.000115
+[20:26:49:544] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:49:544] [RobocupFieldPF] Referee forbid ticks
+[20:26:49:544] [RobocupFieldPF] Step time: 0.000090
+[20:26:52:550] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:52:550] [RobocupFieldPF] Referee forbid ticks
+[20:26:52:550] [RobocupFieldPF] Step time: 0.000092
+[20:26:55:557] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:55:557] [RobocupFieldPF] Referee forbid ticks
+[20:26:55:557] [RobocupFieldPF] Step time: 0.000088
+[20:26:58:563] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:26:58:563] [RobocupFieldPF] Referee forbid ticks
+[20:26:58:563] [RobocupFieldPF] Step time: 0.000088
+[20:27:01:570] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:01:570] [RobocupFieldPF] Referee forbid ticks
+[20:27:01:570] [RobocupFieldPF] Step time: 0.000088
+[20:27:04:576] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:04:576] [RobocupFieldPF] Referee forbid ticks
+[20:27:04:576] [RobocupFieldPF] Step time: 0.000089
+[20:27:07:582] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:07:582] [RobocupFieldPF] Referee forbid ticks
+[20:27:07:582] [RobocupFieldPF] Step time: 0.000101
+[20:27:10:588] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:10:588] [RobocupFieldPF] Referee forbid ticks
+[20:27:10:588] [RobocupFieldPF] Step time: 0.000092
+[20:27:13:595] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:13:595] [RobocupFieldPF] Referee forbid ticks
+[20:27:13:595] [RobocupFieldPF] Step time: 0.000101
+[20:27:16:601] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:16:601] [RobocupFieldPF] Referee forbid ticks
+[20:27:16:601] [RobocupFieldPF] Step time: 0.000090
+[20:27:19:608] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:19:608] [RobocupFieldPF] Referee forbid ticks
+[20:27:19:608] [RobocupFieldPF] Step time: 0.000121
+[20:27:22:614] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:22:614] [RobocupFieldPF] Referee forbid ticks
+[20:27:22:614] [RobocupFieldPF] Step time: 0.000093
+[20:27:25:620] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:25:620] [RobocupFieldPF] Referee forbid ticks
+[20:27:25:620] [RobocupFieldPF] Step time: 0.000124
+[20:27:28:627] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:28:627] [RobocupFieldPF] Referee forbid ticks
+[20:27:28:627] [RobocupFieldPF] Step time: 0.000091
+[20:27:31:633] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:31:633] [RobocupFieldPF] Referee forbid ticks
+[20:27:31:633] [RobocupFieldPF] Step time: 0.000098
+[20:27:34:639] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:34:639] [RobocupFieldPF] Referee forbid ticks
+[20:27:34:639] [RobocupFieldPF] Step time: 0.000090
+[20:27:37:646] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:37:646] [RobocupFieldPF] Referee forbid ticks
+[20:27:37:646] [RobocupFieldPF] Step time: 0.000084
+[20:27:40:652] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:40:652] [RobocupFieldPF] Referee forbid ticks
+[20:27:40:652] [RobocupFieldPF] Step time: 0.000114
+[20:27:43:658] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:43:658] [RobocupFieldPF] Referee forbid ticks
+[20:27:43:658] [RobocupFieldPF] Step time: 0.000122
+[20:27:46:664] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:46:664] [RobocupFieldPF] Referee forbid ticks
+[20:27:46:664] [RobocupFieldPF] Step time: 0.000087
+[20:27:49:670] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:49:670] [RobocupFieldPF] Referee forbid ticks
+[20:27:49:670] [RobocupFieldPF] Step time: 0.000092
+[20:27:52:676] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:52:676] [RobocupFieldPF] Referee forbid ticks
+[20:27:52:676] [RobocupFieldPF] Step time: 0.000111
+[20:27:55:682] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:55:682] [RobocupFieldPF] Referee forbid ticks
+[20:27:55:682] [RobocupFieldPF] Step time: 0.000121
+[20:27:58:688] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:27:58:688] [RobocupFieldPF] Referee forbid ticks
+[20:27:58:688] [RobocupFieldPF] Step time: 0.000111
+[20:28:01:694] [RobocupFieldPF] Nb observations stolen: (0 goals, 0 markers, 0 compass)
+[20:28:01:694] [RobocupFieldPF] Referee forbid ticks
+[20:28:01:694] [RobocupFieldPF] Step time: 0.000109
