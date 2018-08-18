@@ -30,3 +30,4 @@ RobotBoard &amp; MegaBoard environments
        * n : next
        * p : previous
        * space : repeat
+   * at the end, comment again the // "display" : true. For example you can use git checkout
