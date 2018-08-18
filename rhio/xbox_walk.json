@@ -1,0 +1,89 @@
+[
+    /**
+     * To make a joypad work, first type in rhio:
+     *
+     * pad
+     *
+     * This will dump you all the events from your joypad. You can then write
+     * a json file in your ~/.rhio/ directory.
+     * This is an example.
+     *
+     * When your json is ready, type:
+     *
+     * pad my_file.json
+     *
+     * To run the binding
+     */
+
+
+    /**
+     * Here, the button number 3 will toggle the enabled variable. It will be
+     * set to 1 on the first push, then 0 and so.
+     */
+    {
+        "param": "/moves/walk/walkEnable",
+        "type": "toggle",
+        "number": 0 // A
+    },
+
+    {
+        "command": "walk",
+        "type": "button",
+        "number": 1 // B
+    },
+
+    {
+        "command": "em",
+        "type": "button",
+        "number": 3 // Y
+    },
+    {
+        "command": "init",
+        "type": "button",
+        "number": 2 // X
+    },
+
+    {
+        "command": "/moves/walk/walkKick",
+        "type": "button",
+        "number": 5 // right trigger
+    },
+
+    
+    /**
+     * The axis 1 will set step in the range 38 to -38
+     */
+    {
+        "param": "/moves/walk/walkStep",
+        "type": "axis",
+        "number": 1, // Left analog joystick (up-down)
+        "range": [50, -20]
+    },
+    {
+        "param": "/moves/walk/walkTurn",
+        "type": "axis",
+        "number": 0, // Left analog joystick (left-right)
+        "range": [20, -20]
+    },
+
+    {
+        "param": "/moves/walk/walkLateral",
+        "type": "axis",
+        "number": 6, // Left cross (left-right)
+        "range": [20, -20]
+    },
+
+    {
+        "param": "/lowlevel/head_yaw/goalPosition",
+        "type": "axis",
+        "number": 3, // Right analog joystick (left-right)
+        "range": [60, -60]
+    },
+    {
+        "param": "/lowlevel/head_pitch/goalPosition",
+        "type": "axis",
+        "number": 4, // Right analog joystick (up-down)
+        "range": [60, -20]
+    }
+
+]
