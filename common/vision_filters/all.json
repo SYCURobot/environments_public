@@ -30,7 +30,7 @@
                     "wished_properties" : {
                         "Shutter" : {
                             "autoManualMode" : false,
-                            "absValue" : 1.5
+                            "absValue" : 2.5
                         },
                         "Gain" : {
                             "autoManualMode" : false,

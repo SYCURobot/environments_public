@@ -103,7 +103,7 @@
         "content" : {
             "name" : "white_line_color",
             "dependencies" : ["Y"],
-            "paramInts" : {"threshold" : 120}
+            "paramInts" : {"threshold" : 110}
         }
     }
 ]
