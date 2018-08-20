@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "type": "conv<identity>",
+            "in_size": {
+                "width": 32,
+                "height": 32,
+                "depth": 3
+            },
+            "window_width": 5,
+            "window_height": 5,
+            "out_channels": 8,
+            "connection_table": {
+                "rows": 0,
+                "cols": 0,
+                "connection": "all"
+            },
+            "pad_type": 1,
+            "has_bias": true,
+            "w_stride": 1,
+            "h_stride": 1
+        },
+        {
+            "type": "maxpool<relu>",
+            "in_size": {
+                "width": 32,
+                "height": 32,
+                "depth": 8
+            },
+            "pool_size_x": 4,
+            "pool_size_y": 4,
+            "stride_x": 4,
+            "stride_y": 4,
+            "pad_type": 0
+        },
+        {
+            "type": "conv<identity>",
+            "in_size": {
+                "width": 8,
+                "height": 8,
+                "depth": 8
+            },
+            "window_width": 3,
+            "window_height": 3,
+            "out_channels": 16,
+            "connection_table": {
+                "rows": 0,
+                "cols": 0,
+                "connection": "all"
+            },
+            "pad_type": 1,
+            "has_bias": true,
+            "w_stride": 1,
+            "h_stride": 1
+        },
+        {
+            "type": "maxpool<relu>",
+            "in_size": {
+                "width": 8,
+                "height": 8,
+                "depth": 16
+            },
+            "pool_size_x": 4,
+            "pool_size_y": 4,
+            "stride_x": 4,
+            "stride_y": 4,
+            "pad_type": 0
+        },
+        {
+            "type": "fully_connected<identity>",
+            "in_size": 64,
+            "out_size": 4,
+            "has_bias": true
+        },
+        {
+            "type": "fully_connected<softmax>",
+            "in_size": 4,
+            "out_size": 2,
+            "has_bias": true
+        }
+    ]
+}
