@@ -7,7 +7,7 @@ RobotBoard &amp; MegaBoard environments
 ##Take logs
 
    * from workspace cd tools
-   * prepare the robot and ./run
+   * prepare the robot and ../run
    * ./start_manual_log.php
     Note:
       * When the robot is handled, it doesn't take any images.
@@ -33,7 +33,7 @@ RobotBoard &amp; MegaBoard environments
 
    * from workspace cd src/sycurobot/environments_public/fake
    * ln -sf ../common/vision_filters/all_fake.json vision_config.json
-   * ./prepare.sh robot_name path_to_log
+   * ./prepare.sh robot_name path_to_log (all path)
      Note: path_to_log should be the path to a folder containing lowLevel.log
    * cd ../common/vision_filters
    * uncomment ' //  "display" : true,' in the filters you want to see. For example :
@@ -41,9 +41,10 @@ RobotBoard &amp; MegaBoard environments
        * goals.json
        * robots.json
        * colors.json
+   * cd ../../fake
    * ./run.sh
    * navigate in the images (you have to click on of the images window):
-       * u : update
+       * u : update/pause
        * n : next
        * p : previous
        * space : repeat last command
@@ -60,8 +61,11 @@ RobotBoard &amp; MegaBoard environments
          ball/goal/obstacle by commenting (//) the ones you don't want.
        * choose the periode
          Note: period=1 means that all the images will be processed.
-   * ./extract_patches.sh path_to_logs
+   * ./extract_patches.sh path_to_logs (vision_logs)
+     Note: becarefull with the use of the symbolic link env
+           type the all path.
        * path_to_log should be the path to a folder containing the folder sycu2 or sycu4.
-       * extract_patches.sh removes the previous patches folder 
+       * extract_patches.sh removes the previous patches folder
+       * the files are in the same directory with extract_pathches.sh 
    * if you have to much or not enough images, change the period value or take new logs
  
