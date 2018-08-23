@@ -3,8 +3,8 @@ Environments
 
 RobotBoard &amp; MegaBoard environments
 
-#How to
-##Take logs
+## How to
+### Take logs
 
    * from workspace cd tools
    * prepare the robot and ../run
@@ -20,8 +20,8 @@ RobotBoard &amp; MegaBoard environments
    * run the script from this folder: ../path_to_workspace/tools/dowloadManualLogs.sh
    * when it's finished you can halt the robot
 
-##Lunch fake mode
-###Without logs
+### Lunch fake mode
+#### Without logs
 
    * from workspace cd env/fake
    * ln -sf ../common/vision_filters/all_fake.json env/fake/vision_config.json
@@ -29,7 +29,7 @@ RobotBoard &amp; MegaBoard environments
    * ./run_nv.sh
    * lunch rhio
 
-###With logs
+#### With logs
 
    * from workspace cd src/sycurobot/environments_public/fake
    * ln -sf ../common/vision_filters/all_fake.json vision_config.json
@@ -51,8 +51,8 @@ RobotBoard &amp; MegaBoard environments
    * you can also lunch rhio and tune the parameters of the filters
    * at the end, comment again the // "display" : true. For example you can use git checkout
 
-##Train neural networks
-###Extract patches
+### Train neural networks
+#### Extract patches
 
    * from workspace cd src/sycurobot/environments_public/fake
    * ln -sf ../common/vision_filters/roi_extractor.json vision_config.json
@@ -68,4 +68,3 @@ RobotBoard &amp; MegaBoard environments
        * extract_patches.sh removes the previous patches folder
        * the files are in the same directory with extract_pathches.sh 
    * if you have to much or not enough images, change the period value or take new logs
- 
