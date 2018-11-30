@@ -71,9 +71,9 @@
             "dependencies" : ["source"],
             // "display" : true,
             "paramInts" : {
-                "maxU" : 124,
-                "maxV" : 167,
-                "maxY" : 115,
+                "maxU" : 115,
+                "maxV" : 169,
+                "maxY" : 145,
                 "minU" : 0,
                 "minV" : 0,
                 "minY" : 40
