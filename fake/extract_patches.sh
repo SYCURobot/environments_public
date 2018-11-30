@@ -1,6 +1,6 @@
 #TODO check number of parameters
 if [ "$#" -lt 1 ]; then
-    echo "Usage: $0 folderName"
+    echo "Usage: $0 pathToLog"
     exit
 fi
 
@@ -8,7 +8,7 @@ objTypes[0]="ball"
 objTypes[1]="goal"
 objTypes[2]="obstacle"
 
-ROBOTS=(olive nova arya tom rush)
+ROBOTS=(sycu2 sycu4)
 
 dstFolder="patches/results"
 
