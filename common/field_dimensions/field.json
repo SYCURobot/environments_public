@@ -1,14 +1,1 @@
-{
-   "borderStripWidth" : 0.58,
-   "centerRadius" : 0.75,
-   "fieldLength" : 9,
-   "fieldWidth" : 6,
-   "goalAreaLength" : 1,
-   "goalAreaWidth" : 5,
-   "goalDepth" : 0.74,
-   "goalWidth" : 2.74,
-   "lineWidth" : 0.05,
-   "penaltyMarkDist" : 2.1,
-   "penaltyMarkLength" : 0.1,
-   "ballRadius" : 0.075
-}
+rules.json

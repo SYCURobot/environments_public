@@ -1,0 +1,19 @@
+* Setup wifi
+* Robots
+** CheckList robots
+** Vision configuration
+*** Live tuning
+**** Basic live camera configuration 
+  - Open human filter until image seems correct (Shutter (<?) et Gain (<?))
+*** Tuning with logs
+**** GreenII
+**** WhiteII
+**** Ball detection
+***** If there are not enough ROI.
+***** If there there all the ROI are red.
+***** If there are too much false positive.
+**** Goal detection
+***** If there are not enough ROI.
+***** If there there all the ROI are red.
+***** If there are too much false positive.
+* Test match
