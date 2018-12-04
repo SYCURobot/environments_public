@@ -44,8 +44,9 @@
         "class name" : "Threshold",
         "content" : {
             "name" : "white",
+            //"display" : true,
             "dependencies" : ["Y"],
-            "paramInts" : {"threshold" : 159}
+            "paramInts" : {"threshold" : 111}
         }
     },
     {
@@ -60,6 +61,7 @@
         "class name" : "ColorConverter",
         "content" : {
             "name" : "human",
+            "display" : true,
             "conversion" : "YCrCb2BGR",
             "dependencies" : ["source"]
         }
@@ -69,14 +71,14 @@
         "content" : {
             "name" : "green",
             "dependencies" : ["source"],
-            // "display" : true,
+            //"display" : true,
             "paramInts" : {
-                "maxU" : 115,
-                "maxV" : 169,
-                "maxY" : 145,
-                "minU" : 0,
+                "maxU" : 123,
+                "maxV" : 166,
+                "maxY" : 114,
+                "minU" : 107,
                 "minV" : 0,
-                "minY" : 40
+                "minY" : 51
 
             }
         }
