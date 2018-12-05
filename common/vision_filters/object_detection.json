@@ -1,0 +1,58 @@
+// Require existence of the following external filters
+// human (BGR image)
+// greenII (Integral Image)
+// integralY (Integral Image)
+[
+    {
+        "class name" : "ObjectByDNN",
+        "content" : {
+            "name" : "objectByDNN",
+            "display": true,
+            "dependencies" : ["objectPatchProvider"],
+            "arch_path" : "../common/dnn/balls/structure.json",
+            "weights_path" : "../common/dnn/balls/weights.bin",
+            "paramFloats" : {
+                "scoreThreshold" : 0.9
+            }
+        }
+    },
+    {
+        "class name" : "RoiToPatches",
+        "content" : {
+            "name" : "objectPatchProvider",
+            "dependencies" : ["human", "objectByII"],
+            "paramInts" : {
+                "patchHeight" : 32,
+                "patchWidth" : 32
+            }
+        }
+    },
+    {
+        "class name" : "ObjectByII",
+        "content" : {
+            "name" : "objectByII",
+            "dependencies" : ["whiteII","greenII","objectRadiusProvider"],
+            "display": true,
+            "paramInts" : {
+                "decimationRate" : 3,
+                "maxRois" : 8
+            },
+            "paramFloats" :
+            {
+                "boundaryFactor" : 1.7,
+                "yWeight" : 5.0,
+                "greenWeight" : 2.0,
+                "minScore" : 80,
+                "minSize" : 6
+                //"minRadius" : 6
+            }
+        }
+    },
+    {
+        "class name" : "BallRadiusProvider",
+        "content" : {
+            "name" : "objectRadiusProvider",
+            "dependencies" : ["source"]
+        }
+    }
+]
