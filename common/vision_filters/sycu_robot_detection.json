@@ -1,0 +1,52 @@
+[
+    {
+        "class name" : "ColorBounding",
+        "content" : {
+            "name" : "redRobot",
+            "dependencies" : ["source"],
+            //"display" : true,
+            "paramInts" : {
+                "maxU" : 205,
+                "maxV" : 164,
+                "maxY" : 127,
+                "minU" : 125,
+                "minV" : 143,
+                "minY" : 59
+            }
+        }
+    },
+    {
+        "class name" : "RobotDetectionFilter",
+        "content" : {
+            "name" : "robotFilterDetectionExample",
+            "dependencies" : ["redRobot_erode_dilate", "green", "clipping_by_border", "white"],
+            //"display" : true,
+            "paramFloats" : {
+            }
+        }
+    },
+    {
+        "class name" : "Erode",
+        "content" : {
+            "name" : "redRobot_erode",
+            "dependencies" : ["redRobot"],
+            //"display" : true,
+            "paramInts" : {
+                "kernel_width" : 2,
+                "kernel_height" : 2
+            }
+        }
+    },
+    {
+        "class name" : "Dilate",
+        "content" : {
+            "name" : "redRobot_erode_dilate",
+            "dependencies" : ["redRobot_erode"],
+            //"display" : true,
+            "paramInts" : {
+                "kernel_width" : 2,
+                "kernel_height" : 2
+            }
+        }
+    }
+]
