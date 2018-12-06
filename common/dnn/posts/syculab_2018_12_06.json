@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "type": "conv<identity>",
+            "in_size": {
+                "width": 32,
+                "height": 32,
+                "depth": 3
+            },
+            "window_width": 5,
+            "window_height": 5,
+            "out_channels": 16,
+            "connection_table": {
+                "rows": 0,
+                "cols": 0,
+                "connection": "all"
+            },
+            "pad_type": 1,
+            "has_bias": true,
+            "w_stride": 1,
+            "h_stride": 1
+        },
+        {
+            "type": "maxpool<relu>",
+            "in_size": {
+                "width": 32,
+                "height": 32,
+                "depth": 16
+            },
+            "pool_size_x": 16,
+            "pool_size_y": 16,
+            "stride_x": 16,
+            "stride_y": 16,
+            "pad_type": 0
+        },
+        {
+            "type": "fully_connected<identity>",
+            "in_size": 64,
+            "out_size": 8,
+            "has_bias": true
+        },
+        {
+            "type": "fully_connected<softmax>",
+            "in_size": 8,
+            "out_size": 2,
+            "has_bias": true
+        }
+    ]
+}
