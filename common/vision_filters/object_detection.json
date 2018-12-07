@@ -31,7 +31,7 @@
         "class name" : "ObjectByII",
         "content" : {
             "name" : "objectByII",
-            "dependencies" : ["whiteII","greenII","objectRadiusProvider"],
+            "dependencies" : ["integralY","greenII","objectRadiusProvider"],
             "display": true,
             "paramInts" : {
                 "decimationRate" : 3,
@@ -42,9 +42,8 @@
                 "boundaryFactor" : 1.7,
                 "yWeight" : 5.0,
                 "greenWeight" : 2.0,
-                "minScore" : 80,
-                "minSize" : 6
-                //"minRadius" : 6
+                "minScore" : 15.3,
+                "minSize" : 14.03
             }
         }
     },
