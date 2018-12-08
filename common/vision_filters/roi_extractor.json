@@ -10,6 +10,7 @@
     "arenaProviders" : [],//Currently, the method used to import FieldBorderData is different
     "goalProviders" : ["goalByDNN"],
     "ballProviders" : ["ballByDNN"],
+    "objectProviders" : ["ObjectByDNN"],    
     "compassProviders" : [],
     "playing" : true,
     "pathToLog" : "workingLog/lowLevel.log",
@@ -19,10 +20,11 @@
             "../common/vision_filters/ball_detection.json",
             "../common/vision_filters/clipping.json",
             "../common/vision_filters/goals.json",
-            "../common/vision_filters/robots.json"
+            "../common/vision_filters/robots.json",
+            "../common/vision_filters/object_detection.json"            
         ],
         "filters" : [
-            {
+/*            {
                 "class name" : "PatchRecorder",
                 "content" : {
                     "name" : "obstaclePatchRecorder",
@@ -32,8 +34,21 @@
                         "period" : 10
                     }
                 }
-            },
+            },*/
+
             {
+                "class name" : "PatchRecorder",
+                "content" : {
+                    "name" : "objectPatchRecorder",
+                    "dependencies" : ["objectPatchProvider"],
+                    "prefix" : "patches/object/",
+                    "paramInts" : {
+                        "period" : 1
+                    }
+                }
+            },
+
+/*            {
                 "class name" : "PatchRecorder",
                 "content" : {
                     "name" : "goalPatchRecorder",
@@ -54,7 +69,7 @@
                         "period" : 10
                     }
                 }
-            },
+            },*/
             {
                 "class name" : "SourceLogs",
                 "content" : {

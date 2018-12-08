@@ -61,7 +61,7 @@
         "class name" : "ColorConverter",
         "content" : {
             "name" : "human",
-            "display" : true,
+ //           "display" : true,
             "conversion" : "YCrCb2BGR",
             "dependencies" : ["source"]
         }

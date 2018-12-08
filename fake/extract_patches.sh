@@ -7,6 +7,7 @@ fi
 objTypes[0]="ball"
 objTypes[1]="goal"
 objTypes[2]="obstacle"
+objTypes[3]="object"
 
 ROBOTS=(sycu2 sycu4)
 
