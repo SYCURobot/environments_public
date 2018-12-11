@@ -7,10 +7,10 @@
         "class name" : "ObjectByDNN",
         "content" : {
             "name" : "objectByDNN",
-            "display": true,
+            //"display": true,
             "dependencies" : ["objectPatchProvider"],
-            "arch_path" : "../common/dnn/balls/structure.json",
-            "weights_path" : "../common/dnn/balls/weights.bin",
+            "arch_path" : "../common/dnn/objects/structure.json",
+            "weights_path" : "../common/dnn/objects/weights.bin",
             "paramFloats" : {
                 "scoreThreshold" : 0.9
             }
