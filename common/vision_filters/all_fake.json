@@ -11,6 +11,7 @@
     "arenaProviders" : [],//Currently, the method used to import FieldBorderData is different
     "goalProviders" : ["goalByDNN"],
     "ballProviders" : ["ballByDNN"],
+    "objectProviders" : ["objectByDNN"],     
     "compassProviders" : [],// Disabled currently "visualCompass"],
     "playing" : false,
     "pathToLog" : "workingLog/lowLevel.log",
