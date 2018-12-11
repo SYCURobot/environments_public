@@ -15,7 +15,7 @@
 #
 #
 #  Notes:	Quick and dirty hack
-#           python pxml2dot.py XMLFILE > output.dot
+#           python json2dot.py  > output.dot
 #           dot -Tps2 output.dot -o outfile.pdf
 #
 # from pygraphviz import *
@@ -26,7 +26,7 @@ import sys
 import copy
 import os
 
-COLORS=["red", "blue", "green", "orange", "cyan", "magenta", "purple"]
+COLORS=["red", "pink", "blue", "green", "orange", "cyan", "magenta", "purple"]
 
 class Pipeline:
     def __init__(self, jsonfilename):
