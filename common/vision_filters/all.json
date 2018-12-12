@@ -40,7 +40,7 @@
                         },
                         "FrameRate" : {
                             "autoManualMode" : false,
-                            "absValue" : 40
+                            "absValue" : 50
                         },
                         "WhiteBalance" : {
                             "autoManualMode" : false,
