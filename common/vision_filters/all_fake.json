@@ -11,11 +11,13 @@
     "arenaProviders" : [],//Currently, the method used to import FieldBorderData is different
     "goalProviders" : ["goalByDNN"],
     "ballProviders" : ["ballByDNN"],
-    "objectProviders" : ["objectByDNN"],     
+    "penaltyMarkProviders" : ["objectByDNN"],
     "compassProviders" : [],// Disabled currently "visualCompass"],
     "playing" : false,
     "pathToLog" : "workingLog/lowLevel.log",
-    "RadarImg" : false,
+    "RadarImg" : true,
+    "TaggedImg" : true,
+    "TopView" : true,
     "pipeline" : {
         "paths" : [
             "../common/vision_filters/colors.json",

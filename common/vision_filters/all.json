@@ -10,7 +10,7 @@
     "arenaProviders" : [],//Currently, the method used to import FieldBorderData is different
     "ballProviders" : ["ballByDNN"],
     "goalProviders" : ["goalByDNN"],
-    "objectProviders" : ["objectByDNN"],    
+    "penaltyMarkProviders" : ["objectByDNN"],
     "compassProviders" : [],//"visualCompass"],
     "playing" : true,
     "pipeline" : {
@@ -20,7 +20,7 @@
             "../common/vision_filters/clipping.json",
             "../common/vision_filters/goals.json",
             "../common/vision_filters/robots.json",
-            "../common/vision_filters/object_detection.json"            
+            "../common/vision_filters/object_detection.json"
 //            "../common/vision_filters/visual_compass.json"
         ],
         "filters" : [
