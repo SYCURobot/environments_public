@@ -1,0 +1,19 @@
+{
+
+      "cam_offset" : [ 1.1221019596029962, -0.081195104825224323, 0.13343011556116172 ],
+      "camera_pan" : 66.717619686005577,
+      "camera_pan_space" : [ 60, 70 ],
+      "camera_tilt" : 52.728689539161579,
+      "camera_tilt_space" : [ 48, 55 ],
+      "img_height" : 480,
+      "img_width" : 640,
+      "imu_offset" : [ -0.73711222591424042, -0.7214855049528428, 0 ],
+      "max_angle_error" : 3,
+      "nb_samples" : 500,
+      "nb_threads" : 40,
+      "neck_offset" : [ 0, 0, 0 ],
+      "px_stddev" : 8.6404670063598452,
+      "px_stddev_space" : [ 1, 20 ],
+      "used_indices" : [ 0, 1, 2, 3, 4, 5, 10, 11 ]
+
+}
