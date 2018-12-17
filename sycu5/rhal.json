@@ -1,0 +1,345 @@
+{
+   "Dynaban64" : {
+      "devices" : [
+         {
+            "id" : 42,
+            "name" : "left_shoulder_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : true,
+               "inverse" : false,
+               "zero" : 0
+            }
+         },
+         {
+            "id" : 102,
+            "name" : "right_shoulder_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : true,
+               "inverse" : true,
+               "zero" : 0
+            }
+         },
+         {
+            "id" : 103,
+            "name" : "right_shoulder_roll",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : true,
+               "inverse" : true,
+               "zero" : 22.5
+            }
+         },
+         {
+            "id" : 120,
+            "name" : "left_shoulder_roll",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : true,
+               "inverse" : true,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 122,
+            "name" : "left_elbow",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : true,
+               "inverse" : true,
+               "zero" : 0
+            }
+         },
+         {
+            "id" : 132,
+            "name" : "right_elbow",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : true,
+               "inverse" : false,
+               "zero" : 0
+            }
+         },
+         {
+            "id" : 140,
+            "name" : "head_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : 22.5
+            }
+         },
+         {
+            "id" : 141,
+            "name" : "head_yaw",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : false,
+               "zero" : 0
+            }
+         },
+         {
+            "id" : 150,
+            "name" : "right_hip_yaw",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : 22.5
+            }
+         },
+         {
+            "id" : 165,
+            "name" : "left_hip_yaw",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : -22.5
+            }
+         }
+      ],
+      "parameters" : null
+   },
+   "GY85" : {
+      "devices" : [
+         {
+            "id" : 241,
+            "name" : "imu",
+            "parameters" : {
+               "accXMax" : 1,
+               "accXMin" : -1,
+               "accYMax" : 1,
+               "accYMin" : -1,
+               "accZMax" : 1,
+               "accZMin" : -1,
+               "dontRead" : false,
+               "filterDelay" : 0.02,
+               "gyroXOffset" : 0.014687072485685349,
+               "gyroYOffset" : -0.12003818154335022,
+               "gyroZOffset" : -0.040070734918117523,
+               "invertOrientation" : false,
+               "invertOrientationX" : false,
+               "invertOrientationY" : true,
+               "ki_rollpitch" : 5.0000000000000004e-06,
+               "kp_rollpitch" : 0.0050000000000000001,
+               "magnXMax" : -86,
+               "magnXMin" : -222,
+               "magnYMax" : 100,
+               "magnYMin" : -100,
+               "magnZMax" : -50,
+               "magnZMin" : -214
+            }
+         }
+      ],
+      "parameters" : null
+   },
+   "MX106" : {
+      "devices" : [
+         {
+            "id" : 10,
+            "name" : "right_hip_roll",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 17,
+            "name" : "left_ankle_roll",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : false,
+               "zero" : 22.5
+            }
+         },
+         {
+            "id" : 32,
+            "name" : "right_ankle_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : false,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 35,
+            "name" : "left_hip_roll",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 37,
+            "name" : "left_ankle_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : 22.5
+            }
+         },
+         {
+            "id" : 38,
+            "name" : "right_ankle_roll",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : false,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 100,
+            "name" : "left_knee",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : false,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 101,
+            "name" : "right_hip_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : -22.5
+            }
+         },
+         {
+            "id" : 163,
+            "name" : "right_knee",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : true,
+               "zero" : 22.5
+            }
+         },
+         {
+            "id" : 164,
+            "name" : "left_hip_pitch",
+            "parameters" : {
+               "angleLimitCCWParameter" : 0,
+               "angleLimitCWParameter" : 0,
+               "dontRead" : false,
+               "inverse" : false,
+               "zero" : 22.5
+            }
+         }
+      ],
+      "parameters" : null
+   },
+   "Manager" : {
+      "baudrate" : 1000000,
+      "enableSyncRead" : true,
+      "enableSyncWrite" : true,
+      "port" : "/dev/maple",
+      "protocol" : "DynamixelV1",
+      "scheduleMode" : true,
+      "throwErrorOnRead" : false,
+      "throwErrorOnScan" : false,
+      "waitWriteCheckResponse" : false
+   },
+   "Pins" : {
+      "devices" : [
+         {
+            "id" : 242,
+            "name" : "Pins_1",
+            "parameters" : {
+               "dontRead" : false
+            }
+         }
+      ],
+      "parameters" : null
+   },
+   "PressureSensor4" : {
+      "devices" : [
+         {
+            "id" : 123,
+            "name" : "left_pressure",
+            "parameters" : {
+               "dontRead" : false,
+               "gain_0" : -1,
+               "gain_1" : 1,
+               "gain_2" : 1,
+               "gain_3" : -1,
+               "maxStdDev" : 1250,
+               "x_0" : 0.070000000000000007,
+               "x_1" : -0.070000000000000007,
+               "x_2" : -0.070000000000000007,
+               "x_3" : 0.070000000000000007,
+               "y_0" : -0.035999999999999997,
+               "y_1" : -0.035999999999999997,
+               "y_2" : 0.035999999999999997,
+               "y_3" : 0.035999999999999997,
+               "zero_0" : 1826762.976,
+               "zero_1" : 6477695.1720000003,
+               "zero_2" : -758174.00399999996,
+               "zero_3" : -1163719.72
+            }
+         },
+         {
+            "id" : 124,
+            "name" : "right_pressure",
+            "parameters" : {
+               "dontRead" : false,
+               "gain_0" : -1,
+               "gain_1" : 1,
+               "gain_2" : -1,
+               "gain_3" : 1,
+               "maxStdDev" : 1250,
+               "x_0" : -0.070000000000000007,
+               "x_1" : 0.070000000000000007,
+               "x_2" : -0.070000000000000007,
+               "x_3" : 0.070000000000000007,
+               "y_0" : -0.035999999999999997,
+               "y_1" : -0.035999999999999997,
+               "y_2" : 0.035999999999999997,
+               "y_3" : 0.035999999999999997,
+               "zero_0" : 3488194.9240000001,
+               "zero_1" : 3533158.6439999999,
+               "zero_2" : -166732.59599999999,
+               "zero_3" : 1596244.5160000001
+            }
+         }
+      ],
+      "parameters" : null
+   },
+   "Protocol" : {
+      "timeout" : 0.012,
+      "waitAfterWrite" : 0.001
+   }
+}
