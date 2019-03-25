@@ -9,7 +9,7 @@ objTypes[1]="goal"
 objTypes[2]="obstacle"
 objTypes[3]="object"
 
-ROBOTS=(sycu2 sycu4)
+ROBOTS=(sycu1 sycu2 sycu3 sycu4 sycu5 sycu6)
 
 dstFolder="patches/results"
 
