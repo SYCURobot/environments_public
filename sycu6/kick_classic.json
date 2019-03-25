@@ -1,0 +1,121 @@
+{
+    // 0->1 : shift du poids
+    // 1->2 : plier genoux
+    // 2->3 : jambe en arrière
+    // 3->4 : tir
+    // 4->5 : retour de la jambe
+    // 5->6 : poser le pied
+    // 6->7 : shift du poids
+    "remap": [
+      [0,1.5],
+      [1,1.5],
+      [2,1.5],
+      [3,1.5],
+      [3.1,5],
+      [4,5],
+      [4.01,1],
+      [5,1],
+      [6,1],
+      [7,1]
+    ],
+
+    // Roll
+      // Support
+    "support_hip_roll": [ // positif : jambe -> exterieur
+      [0,0],
+      [1,-14],
+      [2,-14],
+      [3,-14],
+      [4,-13],
+      [5,-13],
+      [6,-13],
+      [7,0]
+    ],
+    "support_ankle_roll": [ // positif : corps -> exterieur
+      [0,0],
+      [1,21],
+      [2,21],
+      [3,21],
+      [4,21],
+      [5,21],
+      [6,21],
+      [7,0]
+    ],
+      // Shoot
+    "shoot_hip_roll": [ // positif : jambe -> interieur
+      [0,0],
+      [1,-21],
+      [2,-21],
+      [3,-21],
+      [4,-21],
+      [5,-26],
+      [6,-26],
+      [7,0]
+    ],
+    "shoot_ankle_roll": [ // positif : corps -> intérieur
+      [0,0],
+      [1,17],
+      [2,17],
+      [3,17],
+      [4,17],
+      [5,20],
+      [6,20],
+      [7,0]
+    ],
+
+    //Pitch
+      // Support
+    "support_hip_pitch": [ // positif : haut du corps -> en arrière
+      [0,0],
+      [1,0],
+      [2,0],
+      [3,-10],
+      [4,15],
+      [5,0],
+      [6,0],
+      [7,0]
+    ],
+    "support_knee":[ // positif : plier genou
+      [0,0],
+      [1,0],
+      [2,0],
+      [3,0],
+      [4,0],
+      [5,0],
+      [6,0],
+      [7,0]
+    ],
+      // Shoot
+    "shoot_hip_pitch": [ // positif : jambe -> avant
+      [0,0],
+      [1,0],
+      [2,-26],
+      [3,25],
+      [4,-40],
+      [5,-28],
+      [6,0],
+      [7,0]
+    ],
+    "shoot_knee": [ // positif : plier genou
+      [0,0],
+      [1,0],
+      [2,60],
+      [3,60],
+      [3.6,60],
+      [4,0],
+      [5,62],
+      [6,0],
+      [7,0]
+    ],
+    "shoot_ankle_pitch": [ // positif : pieds -> haut
+      [0,0],
+      [1,0],
+      [2,-26],
+      [3,-35],
+      [3.6,-28],
+      [4,14],
+      [5,-26],
+      [6,0],
+      [7,0]
+    ]
+}
