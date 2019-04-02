@@ -75,7 +75,7 @@
                "angleLimitCWParameter" : 0,
                "dontRead" : false,
                "inverse" : true,
-               "zero" : 23.5
+               "zero" : 22.5
             }
          },
          {
@@ -168,7 +168,7 @@
                "angleLimitCWParameter" : 0,
                "dontRead" : false,
                "inverse" : false,
-               "zero" : -67.5
+               "zero" : 157.5
             }
          },
          {
@@ -201,7 +201,7 @@
                "angleLimitCWParameter" : 0,
                "dontRead" : false,
                "inverse" : true,
-               "zero" : 22.5
+               "zero" : -22.5
             }
          },
          {
@@ -296,7 +296,7 @@
                "gain_1" : 1,
                "gain_2" : -1,
                "gain_3" : 1,
-               "maxStdDev" : 1250,
+               "maxStdDev" : 5000,
                "x_0" : 0.070000000000000007,
                "x_1" : -0.070000000000000007,
                "x_2" : -0.070000000000000007,
@@ -320,7 +320,7 @@
                "gain_1" : 1,
                "gain_2" : -1,
                "gain_3" : 1,
-               "maxStdDev" : 1250,
+               "maxStdDev" : 5000,
                "x_0" : 0.070000000000000007,
                "x_1" : -0.070000000000000007,
                "x_2" : -0.070000000000000007,
