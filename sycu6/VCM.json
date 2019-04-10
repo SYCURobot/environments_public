@@ -1,13 +1,13 @@
 {
 
-    "cam_offset" : [ 0.0, -2.62731, 0.0 ],
+    "cam_offset" : [ 0.0, -7.063904, 0.0 ],
       "camera_pan" : 66.717619686005577,
       "camera_pan_space" : [ 60, 70 ],
       "camera_tilt" : 52.728689539161579,
       "camera_tilt_space" : [ 48, 55 ],
       "img_height" : 480,
       "img_width" : 640,
-    "imu_offset" : [ 0.0, 0.0, 0.0 ],
+    "imu_offset" : [ 0.0, 0, 0.0 ],
       "max_angle_error" : 3,
       "nb_samples" : 500,
       "nb_threads" : 40,
