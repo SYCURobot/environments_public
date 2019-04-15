@@ -1,6 +1,6 @@
 {
 
-    "cam_offset" : [ 0.0, -2, 0.0 ],
+    "cam_offset" : [ 0.0, -3.5, 0.0 ],
       "camera_pan" : 66.717619686005577,
       "camera_pan_space" : [ 60, 70 ],
       "camera_tilt" : 52.728689539161579,
