@@ -7,7 +7,7 @@
         "class name" : "BallByDNN",
         "content" : {
             "name" : "ballByDNN",
-//            "display" : true,
+           "display" : true,
             "dependencies" : ["ballPatchProvider"],
             "arch_path" : "../common/dnn/balls/structure.json",
             "weights_path" : "../common/dnn/balls/weights.bin",
