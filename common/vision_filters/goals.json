@@ -8,7 +8,7 @@
         "class name" : "GoalByDNN",
         "content" : {
             "name" : "goalByDNN",
-//            "display" : true,
+            "display" : true,
             "dependencies" : ["goalPatchProvider"],
             "arch_path" : "../common/dnn/posts/structure.json",
             "weights_path" : "../common/dnn/posts/weights.bin",
