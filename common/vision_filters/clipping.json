@@ -67,8 +67,8 @@
             "name" : "black_erode_dilate",
             "dependencies" : ["black_erode"],
             "paramInts" : {
-                "kernel_width" : 2,
-                "kernel_height" : 2
+                "kernel width" : 2,
+                "kernel height" : 2
             }
         }
     },
@@ -78,8 +78,8 @@
             "name" : "black_erode",
             "dependencies" : ["black"],
             "paramInts" : {
-                "kernel_width" : 2,
-                "kernel_height" : 2
+                "kernel width" : 2,
+                "kernel height" : 2
             }
         }
     },
