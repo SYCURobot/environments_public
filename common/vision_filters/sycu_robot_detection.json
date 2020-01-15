@@ -32,8 +32,8 @@
             "dependencies" : ["redRobot"],
             //"display" : true,
             "paramInts" : {
-                "kernel_width" : 2,
-                "kernel_height" : 2
+                "kernel width" : 2,
+                "kernel height" : 2
             }
         }
     },
@@ -44,8 +44,8 @@
             "dependencies" : ["redRobot_erode"],
             //"display" : true,
             "paramInts" : {
-                "kernel_width" : 2,
-                "kernel_height" : 2
+                "kernel width" : 2,
+                "kernel height" : 2
             }
         }
     }
