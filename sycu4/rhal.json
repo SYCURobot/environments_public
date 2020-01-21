@@ -20,7 +20,7 @@
                "angleLimitCWParameter" : 0,
                "dontRead" : true,
                "inverse" : true,
-               "zero" : 0
+               "zero" : -10
             }
          },
          {
